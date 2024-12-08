@@ -1,0 +1,207 @@
+/* Общие стили */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #faf9f6; /* Светлый фон */
+    color: #2e3d49; /* Основной текст */
+    overflow-x: hidden;
+}
+
+.container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+h1 {
+    font-size: 3rem;
+    color: #2e3d49;
+    margin-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+/* Фоновая цитата */
+.quote {
+    font-style: italic;
+    font-size: 1.5rem;
+    color: #3b4c57;
+    margin-bottom: 30px;
+    background-color: rgba(46, 61, 73, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Изображение */
+.image-container img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/* Расписание */
+.details {
+    text-align: left;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(46, 61, 73, 0.05);
+}
+
+.details h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2e3d49;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(46, 61, 73, 0.1);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #2e3d49;
+}
+
+/* Советы */
+.gifts {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.gifts h2 {
+    font-size: 2rem;
+    color: #2e3d49;
+    margin-bottom: 15px;
+}
+
+.gifts p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #3b4c57;
+}
+
+/* Таймер */
+.countdown {
+    font-size: 1.8rem;
+    color: #3b4c57;
+    margin: 20px 0;
+}
+
+.countdown span {
+    font-weight: bold;
+    color: #2e3d49;
+}
+
+/* Кнопки */
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #3b8c59; /* Зелёный акцент */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f6d47;
+}
+
+/* Карта */
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+/* Форма */
+.form-container {
+    text-align: left;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(46, 61, 73, 0.05);
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2e3d49;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1rem;
+    color: #2e3d49;
+}
+
+.form-container input,
+.form-container textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #3b8c59; /* Зелёная рамка */
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Для правильной обработки отступов */
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    outline: none;
+    border-color: #2f6d47; /* Более тёмный зелёный при фокусе */
+    box-shadow: 0 0 5px rgba(47, 109, 71, 0.5);
+}
+
+.form-container button {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #3b8c59;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #2f6d47;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .quote {
+        font-size: 1.3rem;
+    }
+
+    .details ul li {
+        font-size: 1rem;
+    }
+}
