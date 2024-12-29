@@ -1,5 +1,6 @@
-const countdownElement = document.getElementById("countdown");
-const weddingDate = luxon.DateTime.fromISO("2025-05-31T16:00:00");
+/* Countdown */
+let countdownElement = document.getElementById("countdown");
+let weddingDate = luxon.DateTime.fromISO("2025-05-31T16:00:00");
 
 function updateCountdown() {
     const now = luxon.DateTime.now();
@@ -14,3 +15,19 @@ function updateCountdown() {
 
 setInterval(updateCountdown, 1000);
 updateCountdown();
+
+
+/* Map */
+let place_name = document.getElementById("place-name");
+let map = document.getElementById("google-map");
+
+place_name.addEventListener('click', OpenMap);
+
+function OpenMap() {
+    if (map.style.display === 'unset') {
+        map.style.display = 'none';
+    }
+    else {
+        map.style.display = 'unset';
+    }
+}

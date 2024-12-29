@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Свадебное приглашение</title>
+    <!-- CSS -->
     <link rel="stylesheet" href="/static/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
 </head>
@@ -15,13 +17,15 @@
     <div class="container">
         <div class="page-header">
             <div class="image-container">
-                <img src="/static/images/wedding_photo_1.jpg" alt="Фото молодоженов">
+                <img src="/static/images/wedding_photo_1.jpg" alt="Main foto">
             </div>
-            <h1>Виктория и Владислав</h1>
-            <h2 class="date">31/06/2025</h2>
-            <p id="countdown" class="countdown"></p>
-            <p class="message">Мы с радостью приглашаем вас отпраздновать наш особенный день!</p>
-            <blockquote class="quote">"Когда любовь заполняет сердце, всё вокруг кажется прекрасным."</blockquote>
+            <div class="page-header-texts section">
+                <h1 class="great-vibes-regular">Виктория и Владислав</h1>
+                <h2 class="date">31/06/2025</h2>
+                <p id="countdown" class="countdown"></p>
+                <p class="message">Мы с радостью приглашаем вас отпраздновать наш особенный день!</p>
+                <blockquote class="quote great-vibes-regular">"Когда любовь заполняет сердце, всё вокруг кажется прекрасным."</blockquote>
+            </div>
         </div>
         <div class="details section">
             <h2>Расписание:</h2>
@@ -38,10 +42,14 @@
             <p>Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!</p>
         </div>
         <div class="map section">
-            <h2>Местоположение:</h2>
+            <h2>Место проведения</h2>
+            <p style="display: none;">Наша свадьба будет проходить в "PAVLUS Pub & Restaurant" по адресу "SNP 444/197, 935 41 Tekovské Lužany"</p>
+            <div class="image-place">
+                <h2 id="place-name" class="great-vibes-regular">Pavlus Pub & Restaurant</h2>
+            </div>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
-                    width="600" height="450" style="border:0;" allowfullscreen=""
-                    loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
         <div class="rsvp section">
