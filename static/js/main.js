@@ -23,17 +23,19 @@ updateCountdown();
 
 
 /* Map */
-let rspv_title = document.getElementById("rspv-title");
-let rspv_form = document.getElementById("rspv-form");
-rspv_title.addEventListener('click', OpenRSPV)
+let modalElement = document.getElementById("modal");
+
+let rspv_title = document.getElementById("rspv-open-button");
+let closeDialogButton = document.getElementById("close-dialog-button");
+
+rspv_title.addEventListener('click', OpenRSPV);
+closeDialogButton.addEventListener('click', CloseRSPV);
 
 function OpenRSPV() {
-    if (rspv_form.style.display === 'flex') {
-        rspv_form.style.display = 'none';
-    }
-    else {
-        rspv_form.style.display = 'flex';
-    }
+    modalElement.showModal();
+}
+function CloseRSPV() {
+    modalElement.close();
 }
 
 let place_name = document.getElementById("place-name");

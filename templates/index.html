@@ -24,7 +24,7 @@
                 <div class="wedding-time">
                     <h2>Суббота</h2>
                     <h2>|</h2>
-                    <h2 class="date">31/06/2025</h2>
+                    <h2 class="date">31-06-2025</h2>
                     <h2>|</h2>
                     <h2>16:00</h2>
                 </div>
@@ -34,14 +34,40 @@
             </div>
         </div>
         <div class="rsvp section">
-            <h2 id="rspv-title">Подтвердите своё присутствие</h2>
-            <form class="form-container" id="rspv-form">
-                <input type="text" name="name" placeholder="Ваше имя" required>
-                <input type="text" name="guests" placeholder="Количество гостей" required>
-                <textarea name="message" placeholder="Ваше сообщение"></textarea>
-                <button type="submit">Отправить</button>
-            </form>
+            <button id="rspv-open-button">Подтвердить присутствие</button>
         </div>
+        <dialog id="modal" class="rspv-dialog">
+            <form method="dialog">
+                <div class="main-info">
+                    <h2>Подтверждение</h2>
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="text" name="guests" placeholder="Количество гостей" required>
+                </div>
+                <div class="alcohol">
+                    <h2>Какой алкоголь предпочитаете?</h2>
+                    <div class="alcohol-inner">
+                        <div class="alcohol-option">
+                            <label for="vine">Вино</label>
+                            <input type="checkbox" id="vine" name="alcohol" value="vine">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="beer">Пиво</label>
+                            <input type="checkbox" id="beer" name="alcohol" value="beer">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="samogon">Самогон</label>
+                            <input type="checkbox" id="samogon" name="alcohol" value="samogon">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="vodka">Водка</label>
+                            <input type="checkbox" id="vodka" name="alcohol" value="jagermeister">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Отправить</button>
+                <button id="close-dialog-button">&times;</button>
+            </form>
+        </dialog>
         <div class="details section">
             <h2>Расписание</h2>
             <ul>

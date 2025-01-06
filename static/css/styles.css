@@ -7,6 +7,8 @@
 
     --main-background-color: rgba(255, 255, 255, 0.9);
     --second-background-color: rgba(46, 61, 73, 0.1);;
+    --third-background-color: white;
+
 
     --button-background-color: #af8b39;
     --button-second-color: #8c7031;
@@ -35,10 +37,7 @@ h2 {
 button {
     font-size: 1.2rem;
     padding: 10px 20px;
-
     background-color: var(--button-background-color);
-    additional-background-color: rgba(46, 61, 73, 0.05);
-
     color: #ffffff;
     border: none;
     border-radius: 5px;
@@ -95,7 +94,7 @@ body {
         }
         & .wedding-time {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             padding: 1.3rem;
         }
         & .quote {
@@ -109,17 +108,12 @@ body {
 }
 .details {
     border-radius: 10px;
-
-    & h2 {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
     & ul {
         text-align: left;
         background-color: var(--second-background-color);
         list-style-type: none;
         border-radius: 5px;
-        padding: 10px;
+        padding: 10px 2rem;
 
         & li {
             margin: 10px 0;
@@ -132,10 +126,7 @@ body {
     }
 }
 .gifts {
-    & h2 {
-        font-size: 2rem;
-        margin-bottom: 15px;
-    }
+    & h2 {}
     & p {
         font-size: 1.2rem;
         line-height: 1.8;
@@ -153,9 +144,7 @@ body {
         border-radius: 10px;
 
         & h2 {
-            color: var(--main-font-color);
             background-color: var(--second-background-color);
-            backdrop-filter: blur(15px);
             text-align: center;
             padding: 2rem;
         }
@@ -170,18 +159,32 @@ body {
     }
 }
 .rsvp {
-    & .form-container {
-        display: none;
+    & button {
+        padding: 20px;
+        margin: 2rem;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+}
+.rspv-dialog {
+    background-color: var(--third-background-color);
+    border: none;
+    border-radius: 10px;
+    height: 90%;
+    width: 40%;
+
+    & form {
+        height: 90%;
+        display: flex;
         flex-direction: column;
         text-align: left;
-        margin-top: 40px;
         padding: 2rem;
         border-radius: 10px;
-        background-color: var(--second-background-color);
+        justify-content: space-evenly;
 
         & h2 {
             font-size: 2rem;
-            margin-bottom: 15px;
+            margin: 15px 0;
         }
         & label {
             display: block;
@@ -189,7 +192,7 @@ body {
             font-size: 1rem;
             color: #2e3d49;
         }
-        & input, textarea {
+        & input {
             display: block;
             width: 100%;
             padding: 10px;
@@ -199,21 +202,41 @@ body {
             font-size: 1rem;
             box-sizing: border-box;
         }
-        & input:focus, textarea:focus {
-            outline: none;
-            border-color: var(--button-second-color);
-            box-shadow: 0 0 5px var(--button-second-color);
+
+
+        & div {
+            display: flex;
+            flex-direction: column;
+        }
+        & .main-info {
+            & input:focus {
+                outline: none;
+                border-color: var(--button-second-color);
+                box-shadow: 0 0 5px var(--button-second-color);
+            }
+        }
+        & .alcohol {
+            & .alcohol-inner {
+                padding: 1rem 0;
+                & .alcohol-option {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 0.3rem;
+                }
+                & label {
+                    width: 30px;
+                    min-width: 80px;
+                }
+                & input {
+                    margin: 0;
+                }
+            }
         }
         & button {
-            width: 100%;
-            font-size: 1.2rem;
             padding: 10px;
-
-            color: #ffffff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
+            min-width: 80px;
+            margin: 1rem 0;
         }
     }
 }
