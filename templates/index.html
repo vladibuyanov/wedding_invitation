@@ -38,6 +38,9 @@
         </div>
         <dialog id="modal" class="rspv-dialog">
             <form method="dialog">
+                <div class="dialog-header-buttons">
+                    <button id="close-dialog-button">&times;</button>
+                </div>
                 <div class="main-info">
                     <h2>Подтверждение</h2>
                     <input type="text" name="name" placeholder="Ваше имя" required>
@@ -64,8 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <button type="submit">Отправить</button>
-                <button id="close-dialog-button">&times;</button>
+                <button id="submit-dialog-button" type="submit">Отправить</button>
             </form>
         </dialog>
         <div class="details section">

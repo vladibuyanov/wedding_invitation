@@ -12,6 +12,9 @@
 
     --button-background-color: #af8b39;
     --button-second-color: #8c7031;
+
+    --button-third-color: #82807b6e;
+    --button-third-color-additional: #82807b;
 }
 
 .great-vibes-regular {
@@ -233,7 +236,15 @@ body {
                 }
             }
         }
-        & button {
+        & .dialog-header-buttons {
+            align-items: flex-end;
+
+            & #close-dialog-button {
+                background-color: var(--button-third-color);
+                padding: 5px;
+            }
+        }
+        & #submit-dialog-button {
             padding: 10px;
             min-width: 80px;
             margin: 1rem 0;
