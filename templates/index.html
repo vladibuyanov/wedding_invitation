@@ -8,39 +8,43 @@
     <link rel="stylesheet" href="/static/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
     <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="page-header">
-            <div class="image-container">
-                <img src="/static/images/wedding_photo_1.jpg" alt="Main foto">
-            </div>
-            <div class="page-header-texts section">
-                <h1 class="names great-vibes-regular">Виктория и Владислав</h1>
-                <div class="wedding-time">
-                    <h2>Суббота</h2>
-                    <h2>|</h2>
-                    <h2 class="date">31-06-2025</h2>
-                    <h2>|</h2>
-                    <h2>16:00</h2>
-                </div>
-                <blockquote class="quote great-vibes-regular">
-                    "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
-                </blockquote>
-            </div>
+<div class="container">
+    <div class="page-header">
+        <div class="image-container">
+            <img src="/static/images/wedding_photo_1.jpg" alt="Main foto">
         </div>
-        <div class="rsvp section">
-            <button id="rspv-open-button">Подтвердить присутствие</button>
+        <div class="page-header-texts section">
+            <h1 class="names great-vibes-regular">Виктория и Владислав</h1>
+            <div class="wedding-time">
+                <h2>Суббота</h2>
+                <h2>|</h2>
+                <h2 class="date">31-06-2025</h2>
+                <h2>|</h2>
+                <h2>16:00</h2>
+            </div>
+            <blockquote class="quote great-vibes-regular">
+                "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
+            </blockquote>
         </div>
-        <dialog id="modal" class="rspv-dialog">
+    </div>
+    <div class="rsvp section row-flex-div">
+        <p class="quote">~</p>
+        <button id="rspv-open-button">Подтвердить присутствие</button>
+        <p class="quote">~</p>
+    </div>
+    <dialog id="modal" class="rspv-dialog">
+        <div class="dialog-container">
+            <div class="dialog-header-buttons">
+                <button id="close-dialog-button">&times;</button>
+            </div>
             <form method="dialog">
-                <div class="dialog-header-buttons">
-                    <button id="close-dialog-button">&times;</button>
-                </div>
                 <div class="main-info">
                     <h2>Подтверждение</h2>
                     <input type="text" name="name" placeholder="Ваше имя" required>
@@ -63,47 +67,50 @@
                         </div>
                         <div class="alcohol-option">
                             <label for="vodka">Водка</label>
-                            <input type="checkbox" id="vodka" name="alcohol" value="jagermeister">
+                            <input type="checkbox" id="vodka" name="alcohol" value="vodka">
                         </div>
                     </div>
                 </div>
-                <button id="submit-dialog-button" type="submit">Отправить</button>
             </form>
-        </dialog>
-        <div class="details section">
-            <h2>Расписание</h2>
-            <ul>
-                <li><strong>16:00:</strong> Приветствие гостей</li>
-                <li><strong>16:30:</strong> Церемония</li>
-                <li><strong>17:00:</strong> Фотосессия</li>
-                <li><strong>18:00:</strong> Банкет</li>
-                <li><strong>22:00:</strong> Танцы и праздник</li>
-            </ul>
+            <button id="submit-dialog-button" type="submit">Отправить</button>
         </div>
-        <div class="gifts section">
-            <h2>Детали</h2>
-            <p>Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!</p>
-        </div>
-        <div class="map section">
-            <h2>Место проведения</h2>
-            <p style="display: none;">Наша свадьба будет проходить в "PAVLUS Pub & Restaurant" по адресу "SNP 444/197, 935 41 Tekovské Lužany"</p>
-            <div class="image-place">
-                <h2 id="place-name" class="great-vibes-regular">Pavlus Pub & Restaurant</h2>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
-                    id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-        </div>
-        <div class="countdown-div section">
-            <p class="great-vibes-regular">До свадьбы осталось!</p>
-            <div class="countdown-inner-div">
-                <p id="countdown-days" class="countdown"></p>
-                <p id="countdown-hours" class="countdown"></p>
-                <p id="countdown-minutes" class="countdown"></p>
-            </div>
-            <p class="great-vibes-regular">Мы с радостью приглашаем вас отпраздновать наш особенный день!</p>
-        </div>
+    </dialog>
+    <div class="details section">
+        <h2>Расписание</h2>
+        <ul>
+            <li><strong>16:00:</strong> Приветствие гостей</li>
+            <li><strong>16:30:</strong> Церемония</li>
+            <li><strong>17:00:</strong> Фотосессия</li>
+            <li><strong>18:00:</strong> Банкет</li>
+            <li><strong>22:00:</strong> Танцы и праздник</li>
+        </ul>
     </div>
+    <div class="gifts section">
+        <h2>Детали</h2>
+        <p>Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше
+            будущее!</p>
+    </div>
+    <div class="map section">
+        <h2>Место проведения</h2>
+        <p style="display: none;">Наша свадьба будет проходить в "PAVLUS Pub & Restaurant" по адресу "SNP 444/197, 935
+            41 Tekovské Lužany"</p>
+        <div class="image-place">
+            <h2 id="place-name" class="great-vibes-regular">Pavlus Pub & Restaurant</h2>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
+                id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+    <div class="countdown-div section">
+        <p class="great-vibes-regular">До свадьбы осталось!</p>
+        <div class="countdown-inner-div">
+            <p id="countdown-days" class="countdown"></p>
+            <p id="countdown-hours" class="countdown"></p>
+            <p id="countdown-minutes" class="countdown"></p>
+        </div>
+        <p class="great-vibes-regular">Мы с радостью приглашаем вас отпраздновать наш особенный день!</p>
+    </div>
+</div>
 </body>
 </html>

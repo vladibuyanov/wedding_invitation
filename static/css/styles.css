@@ -22,6 +22,14 @@
   font-weight: 400;
   font-style: normal;
 }
+.row-flex-div {
+    display: flex;
+    flex-direction: row;
+}
+.column-flex-div {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Заголовок */
 h1 {
@@ -95,9 +103,14 @@ body {
         & h2, p, blockquote {
             font-size: 1.8rem;
         }
+        & .date {
+            font-size: 2.5rem;
+            margin: 0;
+        }
         & .wedding-time {
             display: flex;
             justify-content: space-evenly;
+            align-items: center;
             padding: 1.3rem;
         }
         & .quote {
@@ -131,7 +144,7 @@ body {
 .gifts {
     & h2 {}
     & p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         line-height: 1.8;
         color: #3b4c57;
     }
@@ -141,6 +154,7 @@ body {
         background-image: url("../images/place.jpg");
         background-size: cover;
         height: 25rem;
+
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -150,6 +164,8 @@ body {
             background-color: var(--second-background-color);
             text-align: center;
             padding: 2rem;
+            color: rgba(255, 255, 255, 0.5);
+            text-shadow: 1px 1px 0px white;
         }
     }
     & iframe {
@@ -162,6 +178,13 @@ body {
     }
 }
 .rsvp {
+    align-items: center;
+    justify-content: space-evenly;
+    & .quote {
+        font-size: 3rem;
+        color: var(--second-font-color);
+        margin: 0;
+    }
     & button {
         padding: 20px;
         margin: 2rem;
@@ -173,17 +196,32 @@ body {
     background-color: var(--third-background-color);
     border: none;
     border-radius: 10px;
-    height: 90%;
     width: 40%;
 
-    & form {
-        height: 90%;
+    & div {
         display: flex;
         flex-direction: column;
-        text-align: left;
+    }
+
+    & .dialog-container {
         padding: 2rem;
-        border-radius: 10px;
-        justify-content: space-evenly;
+
+        & .dialog-header-buttons {
+            align-items: flex-end;
+            & #close-dialog-button {
+                background-color: var(--button-third-color);
+                padding: 5px;
+            }
+        }
+
+        & form {
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            border-radius: 10px;
+            justify-content: space-evenly;
+        }
 
         & h2 {
             font-size: 2rem;
@@ -192,7 +230,7 @@ body {
         & label {
             display: block;
             margin: 10px 0 5px;
-            font-size: 1rem;
+            font-size: 1.2rem;
             color: #2e3d49;
         }
         & input {
@@ -205,12 +243,6 @@ body {
             font-size: 1rem;
             box-sizing: border-box;
         }
-
-
-        & div {
-            display: flex;
-            flex-direction: column;
-        }
         & .main-info {
             & input:focus {
                 outline: none;
@@ -220,7 +252,7 @@ body {
         }
         & .alcohol {
             & .alcohol-inner {
-                padding: 1rem 0;
+                padding: 2rem;
                 & .alcohol-option {
                     display: flex;
                     flex-direction: row;
@@ -236,21 +268,14 @@ body {
                 }
             }
         }
-        & .dialog-header-buttons {
-            align-items: flex-end;
 
-            & #close-dialog-button {
-                background-color: var(--button-third-color);
-                padding: 5px;
-            }
-        }
         & #submit-dialog-button {
-            padding: 10px;
             min-width: 80px;
             margin: 1rem 0;
         }
     }
 }
+
 .countdown-div {
     & p {
         font-size: 1.8rem;
