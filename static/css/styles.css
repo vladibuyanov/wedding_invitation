@@ -182,7 +182,7 @@ body {
     justify-content: space-evenly;
     & .quote {
         font-size: 3rem;
-        color: var(--second-font-color);
+        color: var(--button-second-color);
         margin: 0;
     }
     & button {
