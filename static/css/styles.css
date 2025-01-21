@@ -85,7 +85,7 @@ body {
 
 /* Sections */
 .section {
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
 }
 
 .page-header {
@@ -99,6 +99,9 @@ body {
     & .page-header-texts {
         & .names {
             margin: 1rem;
+        }
+        & h1 {
+            font-size: 3.5rem;
         }
         & h2, p, blockquote {
             font-size: 1.8rem;
@@ -132,11 +135,23 @@ body {
         padding: 10px 2rem;
 
         & li {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
             margin: 10px 0;
             padding: 5px;
             font-size: 1.5rem;
-            & strong {
-                color: var(--main-font-color);
+            & img {
+                margin-right: 2rem;
+            }
+            & div {
+                & p {
+                    margin-top: 0;
+                }
+                & strong {
+                    color: var(--main-font-color);
+                }
             }
         }
     }
@@ -277,8 +292,8 @@ body {
 }
 
 .countdown-div {
-    & p {
-        font-size: 1.8rem;
+    & h2 {
+        font-size: 2rem;
         margin: 1rem;
     }
     & .countdown-inner-div {
