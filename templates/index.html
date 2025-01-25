@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Свадебное приглашение</title>
+    <title>{{ _("Свадебное приглашение") }}</title>
     <!-- CSS -->
     <link rel="stylesheet" href="/static/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,22 +21,22 @@
             <img src="/static/images/wedding_photo_1.jpg" alt="Main foto">
         </div>
         <div class="page-header-texts section">
-            <h1 class="names great-vibes-regular">Виктория и Владислав</h1>
+            <h1 class="names great-vibes-regular">{{ _("Виктория и Владислав") }}</h1>
             <div class="wedding-time">
-                <h2>Суббота</h2>
+                <h2>{{ _("Суббота") }}</h2>
                 <h2>|</h2>
                 <h2 class="date">31-06-2025</h2>
                 <h2>|</h2>
                 <h2>16:00</h2>
             </div>
             <blockquote class="quote great-vibes-regular">
-                "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
+                {{ _("Когда любовь заполняет сердце, всё вокруг кажется прекрасным.") }}
             </blockquote>
         </div>
     </div>
     <div class="rsvp section row-flex-div">
         <p class="quote">~</p>
-        <button id="rspv-open-button">Подтвердить присутствие</button>
+        <button id="rspv-open-button">{{ _("Подтвердить присутствие") }}</button>
         <p class="quote">~</p>
     </div>
     <dialog id="modal" class="rspv-dialog">
@@ -46,107 +46,105 @@
             </div>
             <form method="dialog">
                 <div class="main-info">
-                    <h2>Подтверждение</h2>
+                    <h2>{{ _("Подтверждение") }}</h2>
                     <input type="text" name="name" placeholder="Ваше имя" required>
                     <input type="text" name="guests" placeholder="Количество гостей" required>
                 </div>
                 <div class="alcohol">
-                    <h2>Какой алкоголь предпочитаете?</h2>
+                    <h2>{{ _("Какой алкоголь предпочитаете?") }}</h2>
                     <div class="alcohol-inner">
                         <div class="alcohol-option">
-                            <label for="vine">Вино</label>
+                            <label for="vine">{{ _("Вино") }}</label>
                             <input type="checkbox" id="vine" name="alcohol" value="vine">
                         </div>
                         <div class="alcohol-option">
-                            <label for="beer">Пиво</label>
+                            <label for="beer">{{ _("Пиво") }}</label>
                             <input type="checkbox" id="beer" name="alcohol" value="beer">
                         </div>
                         <div class="alcohol-option">
-                            <label for="samogon">Самогон</label>
+                            <label for="samogon">{{ _("Самогон") }}</label>
                             <input type="checkbox" id="samogon" name="alcohol" value="samogon">
                         </div>
                         <div class="alcohol-option">
-                            <label for="vodka">Водка</label>
+                            <label for="vodka">{{ _("Водка") }}</label>
                             <input type="checkbox" id="vodka" name="alcohol" value="vodka">
                         </div>
                     </div>
                 </div>
             </form>
-            <button id="submit-dialog-button" type="submit">Отправить</button>
+            <button id="submit-dialog-button" type="submit">{{ _("Отправить") }}</button>
         </div>
     </dialog>
     <div class="details section">
-        <h2>Расписание</h2>
+        <h2>{{ _("Расписание") }}</h2>
         <ul>
             <li>
                 <img src="/static/images/timeline/rings.png" alt="">
                 <div>
-                    <p>Церермония</p>
+                    <p>{{ _("Церермония") }}</p>
                     <strong>16:30</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/glasses.png" alt="">
                 <div>
-                    <p>Первый Тост</p>
+                    <p>{{ _("Первый Тост") }}</p>
                     <strong>17:45</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/plates.png" alt="">
                 <div>
-                    <p>Банкет</p>
+                    <p>{{ _("Банкет") }}</p>
                     <strong>18:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/music.png" alt="">
                 <div>
-                    <p>Первый Свадебный Танец</p>
+                    <p>{{ _("Первый Свадебный Танец") }}</p>
                     <strong>19:30</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/cake.png" alt="">
                 <div>
-                    <p>Торт</p>
+                    <p>{{ _("Торт") }}</p>
                     <strong>20:30</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/discoball.png" alt="">
                 <div>
-                    <p>Танцы</p>
+                    <p>{{ _("Танцы") }}</p>
                     <strong>21:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/kokosnic.png" alt="">
                 <div>
-                    <p>Чепчение</p>
+                    <p>{{ _("Чепчение") }}</p>
                     <strong>23:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/fireworks.png" alt="">
                 <div>
-                    <p>Танцы и праздник</p>
+                    <p>{{ _("Танцы и праздник") }}</p>
                     <strong>00:00</strong>
                 </div>
             </li>
         </ul>
     </div>
     <div class="gifts section">
-        <h2>Детали</h2>
-        <p>Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше
-            будущее!</p>
+        <h2>{{ _("Детали") }}</h2>
+        <p>{{ _("Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!") }}</p>
     </div>
     <div class="map section">
-        <h2>Место проведения</h2>
-        <p style="display: none;">Наша свадьба будет проходить в "PAVLUS Pub & Restaurant" по адресу "SNP 444/197, 935
-            41 Tekovské Lužany"</p>
+        <h2>{{ _("Место проведения") }}</h2>
+        <p style="display: none;">{{ _("Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP 444/197, 935 41 Tekovské Lužany'") }}</p>
         <div class="image-place">
-            <h2 id="place-name" class="great-vibes-regular">Pavlus Pub & Restaurant</h2>
+            <h2 id="place-name" class="great-vibes-regular">{{ _("Pavlus Pub & Restaurant") }}</h2>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
                 id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
@@ -154,14 +152,14 @@
         </iframe>
     </div>
     <div class="countdown-div section">
-        <h2 class="great-vibes-regular">До свадьбы осталось!</h2>
+        <h2 class="great-vibes-regular">{{ _("До свадьбы осталось!") }}</h2>
         <div class="countdown-inner-div">
             <p id="countdown-days" class="countdown"></p>
             <p id="countdown-hours" class="countdown"></p>
             <p id="countdown-minutes" class="countdown"></p>
         </div>
         <h2 class="great-vibes-regular">
-            С радостью приглашаем вас отпраздновать наш особенный день!
+            {{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}
         </h2>
     </div>
 </div>

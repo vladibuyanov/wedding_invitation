@@ -1,0 +1,140 @@
+# Slovak translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-25 15:16+0100\n"
+"PO-Revision-Date: 2025-01-25 15:16+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: sk\n"
+"Language-Team: sk <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: templates/index.html:6
+msgid "Свадебное приглашение"
+msgstr "Svadobné pozvanie"
+
+#: templates/index.html:24
+msgid "Виктория и Владислав"
+msgstr "Viktória a Vladislav"
+
+#: templates/index.html:26 templates/test.html:8
+msgid "Суббота"
+msgstr "Sobota"
+
+#: templates/index.html:33
+msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
+msgstr "Keď láska naplní srdce, všetko naokolo sa zdá byť krásne."
+
+#: templates/index.html:39
+msgid "Подтвердить присутствие"
+msgstr "Potvrdiť účasť"
+
+#: templates/index.html:49
+msgid "Подтверждение"
+msgstr "Potvrdenie"
+
+#: templates/index.html:54
+msgid "Какой алкоголь предпочитаете?"
+msgstr "Aký alkohol uprednostňujete?"
+
+#: templates/index.html:57
+msgid "Вино"
+msgstr "Víno"
+
+#: templates/index.html:61
+msgid "Пиво"
+msgstr "Pivo"
+
+#: templates/index.html:65
+msgid "Самогон"
+msgstr "Domáca pálenka"
+
+#: templates/index.html:69
+msgid "Водка"
+msgstr "Vodka"
+
+#: templates/index.html:75
+msgid "Отправить"
+msgstr "Odoslať"
+
+#: templates/index.html:79
+msgid "Расписание"
+msgstr "Program"
+
+#: templates/index.html:84
+msgid "Церермония"
+msgstr "Obrad"
+
+#: templates/index.html:91
+msgid "Первый Тост"
+msgstr "Prvý prípitok"
+
+#: templates/index.html:98
+msgid "Банкет"
+msgstr "Banket"
+
+#: templates/index.html:105
+msgid "Первый Свадебный Танец"
+msgstr "Prvý svadobný tanec"
+
+#: templates/index.html:112
+msgid "Торт"
+msgstr "Torta"
+
+#: templates/index.html:119
+msgid "Танцы"
+msgstr "Tance"
+
+#: templates/index.html:126
+msgid "Чепчение"
+msgstr "Odčepčenie"
+
+#: templates/index.html:133
+msgid "Танцы и праздник"
+msgstr "Tance a oslava"
+
+#: templates/index.html:140
+msgid "Детали"
+msgstr "Podrobnosti"
+
+#: templates/index.html:141
+msgid ""
+"Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
+"будем благодарны за любой вклад в наше будущее!"
+msgstr ""
+"Prineste si so sebou veselosť a radosť v duši, a darčeky v obálke! Budeme"
+" vďační za akýkoľvek príspevok do našej budúcnosti!"
+
+#: templates/index.html:144
+msgid "Место проведения"
+msgstr "Miesto konania"
+
+#: templates/index.html:145
+msgid ""
+"Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP "
+"444/197, 935 41 Tekovské Lužany'"
+msgstr ""
+"Naša svadba sa bude konať v 'PAVLUS Pub & Restaurant' na adrese 'SNP "
+"444/197, 935 41 Tekovské Lužany'"
+
+#: templates/index.html:147
+msgid "Pavlus Pub & Restaurant"
+msgstr "Pavlus Pub & Restaurant"
+
+#: templates/index.html:155
+msgid "До свадьбы осталось!"
+msgstr "Do svadby zostáva!"
+
+#: templates/index.html:162
+msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
+msgstr "S radosťou vás pozývame osláviť náš výnimočný deň!"
+
