@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask, render_template, request, jsonify
-from flask_mail import Mail, Message
+from flask_mail import Mail
 from flask_babel import Babel
 
 from core.functions import get_locale, create_email

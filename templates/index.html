@@ -22,22 +22,20 @@
         </div>
         <div class="page-header-texts section">
             <h1 class="names great-vibes-regular">{{ _("Виктория и Владислав") }}</h1>
-            <div class="wedding-time">
+            <div class="wedding-time great-vibes-regular">
                 <h2>{{ _("Суббота") }}</h2>
-                <h2>|</h2>
                 <h2 class="date">31-06-2025</h2>
-                <h2>|</h2>
-                <h2>16:00</h2>
+                <h2>15:00</h2>
             </div>
             <blockquote class="quote great-vibes-regular">
                 {{ _("Когда любовь заполняет сердце, всё вокруг кажется прекрасным.") }}
             </blockquote>
+            <div class="rsvp row-flex-div">
+                <p class="quote">~</p>
+                <button id="rspv-open-button">{{ _("Подтвердить присутствие") }}</button>
+                <p class="quote">~</p>
+            </div>
         </div>
-    </div>
-    <div class="rsvp section row-flex-div">
-        <p class="quote">~</p>
-        <button id="rspv-open-button">{{ _("Подтвердить присутствие") }}</button>
-        <p class="quote">~</p>
     </div>
     <dialog id="modal" class="rspv-dialog">
         <div class="dialog-container">
@@ -47,7 +45,7 @@
             <form method="dialog">
                 <div class="main-info">
                     <h2>{{ _("Подтверждение") }}</h2>
-                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="text" name="name" placeholder="{{ _('Ваше имя') }}" required>
                     <input type="text" name="guests" placeholder="Количество гостей" required>
                 </div>
                 <div class="alcohol">
@@ -158,9 +156,7 @@
             <p id="countdown-hours" class="countdown"></p>
             <p id="countdown-minutes" class="countdown"></p>
         </div>
-        <h2 class="great-vibes-regular">
-            {{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}
-        </h2>
+        <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
     </div>
 </div>
 </body>
