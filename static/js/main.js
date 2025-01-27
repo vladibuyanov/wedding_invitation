@@ -10,9 +10,9 @@ function updateCountdown() {
     const diff = weddingDate.diff(now, ['days', 'hours', 'minutes', 'seconds']).toObject();
 
     if (diff.days > 0 || diff.hours > 0 || diff.minutes > 0 || diff.seconds > 0) {
-        countdownElementDays.innerText = `${Math.floor(diff.days)} дней`;
-        countdownElementHours.innerText = `${Math.floor(diff.hours)} часов`;
-        countdownElementMinutes.innerText = `${Math.floor(diff.minutes)} минут`;
+        countdownElementDays.innerText = `${Math.floor(diff.days)}`;
+        countdownElementHours.innerText = `${Math.floor(diff.hours)}`;
+        countdownElementMinutes.innerText = `${Math.floor(diff.minutes)}`;
     } else {
         countdownElement.innerText = "Свадьба началась! 🎉";
     }

@@ -1,119 +1,155 @@
+# Translations template for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-01-27 14:03+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
 #: templates/index.html:6
 msgid "Свадебное приглашение"
-msgstr "Svadobné pozvanie"
+msgstr ""
 
 #: templates/index.html:24
 msgid "Виктория и Владислав"
-msgstr "Viktória a Vladislav"
+msgstr ""
 
-#: templates/index.html:26 templates/test.html:8
+#: templates/index.html:26
 msgid "Суббота"
-msgstr "Sobota"
+msgstr ""
 
-#: templates/index.html:33
+#: templates/index.html:31
 msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
-msgstr "Keď láska naplní srdce, všetko naokolo sa zdá byť krásne."
+msgstr ""
 
-#: templates/index.html:39
+#: templates/index.html:35
 msgid "Подтвердить присутствие"
-msgstr "Potvrdiť účasť"
+msgstr ""
+
+#: templates/index.html:47
+msgid "Подтверждение"
+msgstr ""
+
+#: templates/index.html:48
+msgid "Ваше имя"
+msgstr ""
 
 #: templates/index.html:49
-msgid "Подтверждение"
-msgstr "Potvrdenie"
+msgid "Количество гостей"
+msgstr ""
 
-#: templates/index.html:54
+#: templates/index.html:52
 msgid "Какой алкоголь предпочитаете?"
-msgstr "Aký alkohol uprednostňujete?"
+msgstr ""
 
-#: templates/index.html:57
+#: templates/index.html:55
 msgid "Вино"
-msgstr "Víno"
+msgstr ""
 
-#: templates/index.html:61
+#: templates/index.html:59
 msgid "Пиво"
-msgstr "Pivo"
+msgstr ""
 
-#: templates/index.html:65
+#: templates/index.html:63
 msgid "Самогон"
-msgstr "Domáca pálenka"
+msgstr ""
 
-#: templates/index.html:69
+#: templates/index.html:67
 msgid "Водка"
-msgstr "Vodka"
+msgstr ""
 
-#: templates/index.html:75
+#: templates/index.html:73
 msgid "Отправить"
-msgstr "Odoslať"
+msgstr ""
 
-#: templates/index.html:79
+#: templates/index.html:77
 msgid "Расписание"
-msgstr "Program"
+msgstr ""
 
-#: templates/index.html:84
+#: templates/index.html:82
 msgid "Церермония"
-msgstr "Obrad"
+msgstr ""
 
-#: templates/index.html:91
+#: templates/index.html:89
 msgid "Первый Тост"
-msgstr "Prvý prípitok"
+msgstr ""
 
-#: templates/index.html:98
+#: templates/index.html:96
 msgid "Банкет"
-msgstr "Banket"
+msgstr ""
 
-#: templates/index.html:105
+#: templates/index.html:103
 msgid "Первый Свадебный Танец"
-msgstr "Prvý svadobný tanec"
+msgstr ""
 
-#: templates/index.html:112
+#: templates/index.html:110
 msgid "Торт"
-msgstr "Torta"
+msgstr ""
 
-#: templates/index.html:119
+#: templates/index.html:117
 msgid "Танцы"
-msgstr "Tance"
+msgstr ""
 
-#: templates/index.html:126
+#: templates/index.html:124
 msgid "Чепчение"
-msgstr "Odčepčenie"
+msgstr ""
 
-#: templates/index.html:133
+#: templates/index.html:131
 msgid "Танцы и праздник"
-msgstr "Tance a oslava"
+msgstr ""
 
-#: templates/index.html:140
+#: templates/index.html:138
 msgid "Детали"
-msgstr "Podrobnosti"
+msgstr ""
 
-#: templates/index.html:141
+#: templates/index.html:139
 msgid ""
 "Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
 "будем благодарны за любой вклад в наше будущее!"
 msgstr ""
-"Prineste si so sebou veselosť a radosť v duši, a darčeky v obálke! Budeme "
-"vďační za akýkoľvek príspevok do našej budúcnosti!"
 
-#: templates/index.html:144
+#: templates/index.html:142
 msgid "Место проведения"
-msgstr "Miesto konania"
+msgstr ""
 
-#: templates/index.html:145
+#: templates/index.html:143
 msgid ""
 "Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP "
 "444/197, 935 41 Tekovské Lužany'"
 msgstr ""
-"Naša svadba sa bude konať v 'PAVLUS Pub & Restaurant' na adrese 'SNP "
-"444/197, 935 41 Tekovské Lužany'"
 
-#: templates/index.html:147
+#: templates/index.html:145
 msgid "Pavlus Pub & Restaurant"
-msgstr "Pavlus Pub & Restaurant"
+msgstr ""
+
+#: templates/index.html:153
+msgid "До свадьбы осталось!"
+msgstr ""
 
 #: templates/index.html:155
-msgid "До свадьбы осталось!"
-msgstr "Do svadby zostáva!"
+msgid "дней"
+msgstr ""
 
-#: templates/index.html:162
+#: templates/index.html:156
+msgid "часов"
+msgstr ""
+
+#: templates/index.html:157
+msgid "минут"
+msgstr ""
+
+#: templates/index.html:159
 msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
-msgstr "S radosťou vás pozývame osláviť náš výnimočný deň!"
+msgstr ""
+
