@@ -94,16 +94,10 @@ document.addEventListener("DOMContentLoaded", function () {
 /* Map */
 let place_name = document.getElementById("place-name");
 let map = document.getElementById("google-map");
+place_name.addEventListener('click', toggleMap);
 
-place_name.addEventListener('click', OpenMap);
-
-function OpenMap() {
-    if (map.style.display === 'unset') {
-        map.style.display = 'none';
-    }
-    else {
-        map.style.display = 'unset';
-    }
+function toggleMap() {
+    map.classList.toggle('visible');
 }
 
 document.addEventListener('scroll', function() {

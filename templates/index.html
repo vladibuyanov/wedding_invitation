@@ -23,9 +23,9 @@
         <div class="page-header-texts section">
             <h1 class="names great-vibes-regular">{{ _("Виктория и Владислав") }}</h1>
             <div class="wedding-time great-vibes-regular">
-                <h2>{{ _("Суббота") }}</h2>
-                <h2 class="date">31-06-2025</h2>
-                <h2>15:00</h2>
+                <p>{{ _("Суббота") }}</p>
+                <p class="date">31-06-2025</p>
+                <p>15:00</p>
             </div>
             <blockquote class="quote great-vibes-regular">
                 {{ _("Когда любовь заполняет сердце, всё вокруг кажется прекрасным.") }}
@@ -44,12 +44,12 @@
             </div>
             <form method="dialog">
                 <div class="main-info">
-                    <h2>{{ _("Подтверждение") }}</h2>
+                    <h2 class="great-vibes-regular">{{ _("Подтверждение") }}</h2>
                     <input type="text" name="name" placeholder="{{ _('Ваше имя') }}" required>
                     <input type="text" name="guests" placeholder="{{ _('Количество гостей') }}" required>
                 </div>
                 <div class="alcohol">
-                    <h2>{{ _("Какой алкоголь предпочитаете?") }}</h2>
+                    <h2 class="great-vibes-regular">{{ _("Какой алкоголь предпочитаете?") }}</h2>
                     <div class="alcohol-inner">
                         <div class="alcohol-option">
                             <label for="vine">{{ _("Вино") }}</label>
@@ -70,16 +70,18 @@
                     </div>
                 </div>
             </form>
-            <button id="submit-dialog-button" type="submit">{{ _("Отправить") }}</button>
+            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">
+                {{ _("Отправить") }}
+            </button>
         </div>
     </dialog>
     <div class="details section">
-        <h2>{{ _("Расписание") }}</h2>
+        <h2 class="great-vibes-regular">{{ _("Расписание") }}</h2>
         <ul>
             <li>
                 <img src="/static/images/timeline/rings.png" alt="">
                 <div>
-                    <p>{{ _("Церермония") }}</p>
+                    <p>{{ _("Церемония") }}</p>
                     <strong>16:30</strong>
                 </div>
             </li>
@@ -135,11 +137,11 @@
         </ul>
     </div>
     <div class="gifts section">
-        <h2>{{ _("Детали") }}</h2>
+        <h2 class="great-vibes-regular">{{ _("Детали") }}</h2>
         <p>{{ _("Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!") }}</p>
     </div>
     <div class="map section">
-        <h2>{{ _("Место проведения") }}</h2>
+        <h2 class="great-vibes-regular">{{ _("Место проведения") }}</h2>
         <p style="display: none;">{{ _("Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP 444/197, 935 41 Tekovské Lužany'") }}</p>
         <div class="image-place">
             <h2 id="place-name" class="great-vibes-regular">{{ _("Pavlus Pub & Restaurant") }}</h2>

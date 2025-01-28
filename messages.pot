@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-27 14:03+0100\n"
+"POT-Creation-Date: 2025-01-28 12:57+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,87 +69,87 @@ msgstr ""
 msgid "Водка"
 msgstr ""
 
-#: templates/index.html:73
+#: templates/index.html:74
 msgid "Отправить"
 msgstr ""
 
-#: templates/index.html:77
+#: templates/index.html:79
 msgid "Расписание"
 msgstr ""
 
-#: templates/index.html:82
-msgid "Церермония"
+#: templates/index.html:84
+msgid "Церемония"
 msgstr ""
 
-#: templates/index.html:89
+#: templates/index.html:91
 msgid "Первый Тост"
 msgstr ""
 
-#: templates/index.html:96
+#: templates/index.html:98
 msgid "Банкет"
 msgstr ""
 
-#: templates/index.html:103
-msgid "Первый Свадебный Танец"
+#: templates/index.html:105
+msgid "Первый Танец"
 msgstr ""
 
-#: templates/index.html:110
+#: templates/index.html:112
 msgid "Торт"
 msgstr ""
 
-#: templates/index.html:117
+#: templates/index.html:119
 msgid "Танцы"
 msgstr ""
 
-#: templates/index.html:124
+#: templates/index.html:126
 msgid "Чепчение"
 msgstr ""
 
-#: templates/index.html:131
-msgid "Танцы и праздник"
+#: templates/index.html:133
+msgid "Праздник"
 msgstr ""
 
-#: templates/index.html:138
+#: templates/index.html:140
 msgid "Детали"
 msgstr ""
 
-#: templates/index.html:139
+#: templates/index.html:141
 msgid ""
 "Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
 "будем благодарны за любой вклад в наше будущее!"
 msgstr ""
 
-#: templates/index.html:142
+#: templates/index.html:144
 msgid "Место проведения"
 msgstr ""
 
-#: templates/index.html:143
+#: templates/index.html:145
 msgid ""
 "Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP "
 "444/197, 935 41 Tekovské Lužany'"
 msgstr ""
 
-#: templates/index.html:145
+#: templates/index.html:147
 msgid "Pavlus Pub & Restaurant"
 msgstr ""
 
-#: templates/index.html:153
+#: templates/index.html:155
 msgid "До свадьбы осталось!"
 msgstr ""
 
-#: templates/index.html:155
+#: templates/index.html:157
 msgid "дней"
 msgstr ""
 
-#: templates/index.html:156
+#: templates/index.html:158
 msgid "часов"
 msgstr ""
 
-#: templates/index.html:157
+#: templates/index.html:159
 msgid "минут"
 msgstr ""
 
-#: templates/index.html:159
+#: templates/index.html:161
 msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
 msgstr ""
 
