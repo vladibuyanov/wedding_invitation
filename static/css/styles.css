@@ -257,7 +257,7 @@ body {
             font-size: 1.5rem;
 
             & img {
-                margin-right: 2rem;
+                margin: 0 2rem 0 10%;
                 border-right: 3px solid var(--main-font-color);
                 padding-right: 4rem;
             }
@@ -309,8 +309,6 @@ body {
         margin-top: 20px;
     }
 }
-
-
 .countdown-div {
     & h2 {
         margin: 1rem;
@@ -334,17 +332,85 @@ body {
 
 /* Media Queries */
 @media (max-width: 768px) {
-    .container {
-        padding: 15px;
+    .container {}
+}
+
+
+@media (max-width: 426px) {
+    .section {
+        padding: 2rem;
+    }
+    .page-header {
+        & .page-header-texts {
+            & h1 {
+                font-size: 2.5rem;
+            }
+            & .wedding-time {
+                flex-direction: column;
+                min-height: 250px;
+            }
+            & .date {
+                border: none;
+                padding: 0;
+            }
+            & .quote {
+                padding: 2rem;
+                margin: 2rem 0;
+            }
+            & .rsvp {
+                & .quote {
+                    display: none;
+                }
+                & button {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    .details {
+        & ul {
+            & li {
+                flex-direction: column;
+                margin: 1rem;
+                & img {
+                    width: 50%;
+                    padding-right: 0;
+                    margin-right: 0;
+                    border-right: unset;
+                }
+                & div {
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    & p {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .countdown-div {
+        & .countdown-inner-div {
+            flex-direction: column;
+        }
     }
 
-    h1 {
-        font-size: 2.5rem;
-    }
-    .quote {
-        font-size: 1.3rem;
-    }
-    .details ul li {
-        font-size: 1rem;
+    & .rspv-dialog {
+        width: 75%;
+        & .dialog-container {
+            & .dialog-header-buttons {
+                margin-bottom: 1rem;
+            }
+            & h2 {
+                font-size: 1.4rem
+            }
+            & .alcohol {
+                & .alcohol-inner {
+                    padding: 2rem 0;
+                }
+            }
+        }
     }
 }
