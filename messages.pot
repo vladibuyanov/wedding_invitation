@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-01-28 12:57+0100\n"
+"POT-Creation-Date: 2025-01-30 13:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,126 +30,132 @@ msgid "Суббота"
 msgstr ""
 
 #: templates/index.html:31
-msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
+msgid ""
+"В этот день мы хотим пригласить вас, чтобы вы разделили с нами\n"
+"                радость самого важного и трогательного дня нашей жизни."
 msgstr ""
 
-#: templates/index.html:35
+#: templates/index.html:36
 msgid "Подтвердить присутствие"
 msgstr ""
 
-#: templates/index.html:47
-msgid "Подтверждение"
+#: templates/index.html:40
+msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
 msgstr ""
 
-#: templates/index.html:48
-msgid "Ваше имя"
-msgstr ""
-
-#: templates/index.html:49
-msgid "Количество гостей"
-msgstr ""
-
-#: templates/index.html:52
-msgid "Какой алкоголь предпочитаете?"
-msgstr ""
-
-#: templates/index.html:55
-msgid "Вино"
-msgstr ""
-
-#: templates/index.html:59
-msgid "Пиво"
-msgstr ""
-
-#: templates/index.html:63
-msgid "Самогон"
-msgstr ""
-
-#: templates/index.html:67
-msgid "Водка"
-msgstr ""
-
-#: templates/index.html:74
-msgid "Отправить"
-msgstr ""
-
-#: templates/index.html:79
-msgid "Расписание"
-msgstr ""
-
-#: templates/index.html:84
-msgid "Церемония"
-msgstr ""
-
-#: templates/index.html:91
-msgid "Первый Тост"
-msgstr ""
-
-#: templates/index.html:98
-msgid "Банкет"
-msgstr ""
-
-#: templates/index.html:105
-msgid "Первый Танец"
-msgstr ""
-
-#: templates/index.html:112
-msgid "Торт"
-msgstr ""
-
-#: templates/index.html:119
-msgid "Танцы"
-msgstr ""
-
-#: templates/index.html:126
-msgid "Чепчение"
-msgstr ""
-
-#: templates/index.html:133
-msgid "Праздник"
-msgstr ""
-
-#: templates/index.html:140
+#: templates/index.html:45
 msgid "Детали"
 msgstr ""
 
-#: templates/index.html:141
+#: templates/index.html:46
 msgid ""
 "Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
 "будем благодарны за любой вклад в наше будущее!"
 msgstr ""
 
-#: templates/index.html:144
+#: templates/index.html:49
 msgid "Место проведения"
 msgstr ""
 
-#: templates/index.html:145
+#: templates/index.html:50
 msgid ""
 "Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP "
 "444/197, 935 41 Tekovské Lužany'"
 msgstr ""
 
-#: templates/index.html:147
+#: templates/index.html:52
 msgid "Pavlus Pub & Restaurant"
 msgstr ""
 
-#: templates/index.html:155
+#: templates/index.html:60
+msgid "Расписание"
+msgstr ""
+
+#: templates/index.html:65
+msgid "Церемония"
+msgstr ""
+
+#: templates/index.html:72
+msgid "Первый Тост"
+msgstr ""
+
+#: templates/index.html:79
+msgid "Банкет"
+msgstr ""
+
+#: templates/index.html:86
+msgid "Первый Танец"
+msgstr ""
+
+#: templates/index.html:93
+msgid "Торт"
+msgstr ""
+
+#: templates/index.html:100
+msgid "Танцы"
+msgstr ""
+
+#: templates/index.html:107
+msgid "Чепчение"
+msgstr ""
+
+#: templates/index.html:114
+msgid "Праздник"
+msgstr ""
+
+#: templates/index.html:121
 msgid "До свадьбы осталось!"
 msgstr ""
 
-#: templates/index.html:157
+#: templates/index.html:123
 msgid "дней"
 msgstr ""
 
-#: templates/index.html:158
+#: templates/index.html:124
 msgid "часов"
 msgstr ""
 
-#: templates/index.html:159
+#: templates/index.html:125
 msgid "минут"
 msgstr ""
 
-#: templates/index.html:161
+#: templates/index.html:127
 msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
+msgstr ""
+
+#: templates/index.html:137
+msgid "Подтверждение"
+msgstr ""
+
+#: templates/index.html:138
+msgid "Ваше имя"
+msgstr ""
+
+#: templates/index.html:139
+msgid "Количество гостей"
+msgstr ""
+
+#: templates/index.html:142
+msgid "Какой алкоголь предпочитаете?"
+msgstr ""
+
+#: templates/index.html:145
+msgid "Вино"
+msgstr ""
+
+#: templates/index.html:149
+msgid "Пиво"
+msgstr ""
+
+#: templates/index.html:153
+msgid "Самогон"
+msgstr ""
+
+#: templates/index.html:157
+msgid "Водка"
+msgstr ""
+
+#: templates/index.html:164
+msgid "Отправить"
 msgstr ""
 
