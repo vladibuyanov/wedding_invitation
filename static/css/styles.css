@@ -6,7 +6,7 @@
     --second-font-color: #6d6d6d;
 
     --main-background-color: rgba(255, 255, 255, 0.9);
-    --second-background-color: rgba(46, 61, 73, 0.1);;
+    --second-background-color: rgba(46, 61, 73, 0.1);
     --third-background-color: white;
 
 
@@ -46,7 +46,7 @@ h2 {
 
 /* Кнопки */
 button {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     padding: 10px 20px;
     background-color: var(--button-background-color);
     color: #ffffff;
@@ -177,7 +177,7 @@ body {
 
             & #close-dialog-button {
                 background-color: var(--button-third-color);
-                padding: 5px 10px;
+                padding: 1px 10px;
             }
         }
 
@@ -345,6 +345,9 @@ body {
 
 /* Media Queries */
 @media (max-width: 426px) {
+    h2 {
+        font-size: 2rem;
+    }
     .section {
         padding: 2rem;
     }
@@ -352,7 +355,7 @@ body {
     .page-header {
         & .page-header-texts {
             & h1 {
-                font-size: 2.5rem;
+                font-size: 3rem;
             }
             & .wedding-time {
                 flex-direction: column;
@@ -383,9 +386,9 @@ body {
                 flex-direction: column;
                 margin: 1rem;
                 & img {
-                    width: 50%;
+                    width: 70%;
                     padding-right: 0;
-                    margin-right: 0;
+                    margin: 0;
                     border-right: unset;
                 }
                 & div {
