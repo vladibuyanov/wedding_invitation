@@ -21,60 +21,41 @@
             <img src="/static/images/wedding_photo_1.jpg" alt="Main foto">
         </div>
         <div class="page-header-texts section">
-            <h1 class="names great-vibes-regular">{{ _("Виктория и Владислав") }}</h1>
-            <div class="wedding-time great-vibes-regular">
+            <h1 class="names great-vibes-regular header-padding">{{ _("Виктория и Владислав") }}</h1>
+            <div class="wedding-time great-vibes-regular header-padding">
                 <p>{{ _("Суббота") }}</p>
                 <p class="date">31-05-2025</p>
                 <p>15:00</p>
             </div>
-            <blockquote class="quote great-vibes-regular">
-                {{ _("Когда любовь заполняет сердце, всё вокруг кажется прекрасным.") }}
-            </blockquote>
-            <div class="rsvp row-flex-div">
-                <p class="quote">~</p>
+            <p class="invite-text header-padding">
+                {{ _("В этот день мы хотим пригласить вас, чтобы вы разделили с нами
+                радость самого важного и трогательного дня нашей жизни.") }}
+            </p>
+            <div class="rsvp row-flex-div header-padding">
+                <hr class="line">
                 <button id="rspv-open-button">{{ _("Подтвердить присутствие") }}</button>
-                <p class="quote">~</p>
+                <hr class="line">
             </div>
+<!--            <blockquote class="quote great-vibes-regular">-->
+<!--                {{ _("Когда любовь заполняет сердце, всё вокруг кажется прекрасным.") }}-->
+<!--            </blockquote>-->
         </div>
     </div>
-    <dialog id="modal" class="rspv-dialog">
-        <div class="dialog-container">
-            <div class="dialog-header-buttons">
-                <button id="close-dialog-button">&times;</button>
-            </div>
-            <form method="dialog">
-                <div class="main-info">
-                    <h2 class="great-vibes-regular">{{ _("Подтверждение") }}</h2>
-                    <input type="text" name="name" placeholder="{{ _('Ваше имя') }}" required>
-                    <input type="text" name="guests" placeholder="{{ _('Количество гостей') }}" required>
-                </div>
-                <div class="alcohol">
-                    <h2 class="great-vibes-regular">{{ _("Какой алкоголь предпочитаете?") }}</h2>
-                    <div class="alcohol-inner">
-                        <div class="alcohol-option">
-                            <label for="vine">{{ _("Вино") }}</label>
-                            <input type="checkbox" id="vine" name="alcohol" value="vine">
-                        </div>
-                        <div class="alcohol-option">
-                            <label for="beer">{{ _("Пиво") }}</label>
-                            <input type="checkbox" id="beer" name="alcohol" value="beer">
-                        </div>
-                        <div class="alcohol-option">
-                            <label for="samogon">{{ _("Самогон") }}</label>
-                            <input type="checkbox" id="samogon" name="alcohol" value="samogon">
-                        </div>
-                        <div class="alcohol-option">
-                            <label for="vodka">{{ _("Водка") }}</label>
-                            <input type="checkbox" id="vodka" name="alcohol" value="vodka">
-                        </div>
-                    </div>
-                </div>
-            </form>
-            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">
-                {{ _("Отправить") }}
-            </button>
+    <div class="gifts section">
+        <h2 class="great-vibes-regular">{{ _("Детали") }}</h2>
+        <p>{{ _("Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!") }}</p>
+    </div>
+    <div class="map section">
+        <h2 class="great-vibes-regular">{{ _("Место проведения") }}</h2>
+        <p style="display: none;">{{ _("Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP 444/197, 935 41 Tekovské Lužany'") }}</p>
+        <div class="image-place">
+            <h2 id="place-name" class="great-vibes-regular">{{ _("Pavlus Pub & Restaurant") }}</h2>
         </div>
-    </dialog>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
+                id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
     <div class="details section">
         <h2 class="great-vibes-regular">{{ _("Расписание") }}</h2>
         <ul>
@@ -136,21 +117,6 @@
             </li>
         </ul>
     </div>
-    <div class="gifts section">
-        <h2 class="great-vibes-regular">{{ _("Детали") }}</h2>
-        <p>{{ _("Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!") }}</p>
-    </div>
-    <div class="map section">
-        <h2 class="great-vibes-regular">{{ _("Место проведения") }}</h2>
-        <p style="display: none;">{{ _("Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP 444/197, 935 41 Tekovské Lužany'") }}</p>
-        <div class="image-place">
-            <h2 id="place-name" class="great-vibes-regular">{{ _("Pavlus Pub & Restaurant") }}</h2>
-        </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
-                id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </div>
     <div class="countdown-div section">
         <h2 class="great-vibes-regular">{{ _("До свадьбы осталось!") }}</h2>
         <div class="countdown-inner-div">
@@ -160,6 +126,45 @@
         </div>
         <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
     </div>
+
+    <dialog id="modal" class="rspv-dialog">
+        <div class="dialog-container">
+            <div class="dialog-header-buttons">
+                <button id="close-dialog-button">&times;</button>
+            </div>
+            <form method="dialog">
+                <div class="main-info">
+                    <h2 class="great-vibes-regular">{{ _("Подтверждение") }}</h2>
+                    <input type="text" name="name" placeholder="{{ _('Ваше имя') }}" required>
+                    <input type="text" name="guests" placeholder="{{ _('Количество гостей') }}" required>
+                </div>
+                <div class="alcohol">
+                    <h2 class="great-vibes-regular">{{ _("Какой алкоголь предпочитаете?") }}</h2>
+                    <div class="alcohol-inner">
+                        <div class="alcohol-option">
+                            <label for="vine">{{ _("Вино") }}</label>
+                            <input type="checkbox" id="vine" name="alcohol" value="vine">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="beer">{{ _("Пиво") }}</label>
+                            <input type="checkbox" id="beer" name="alcohol" value="beer">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="samogon">{{ _("Самогон") }}</label>
+                            <input type="checkbox" id="samogon" name="alcohol" value="samogon">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="vodka">{{ _("Водка") }}</label>
+                            <input type="checkbox" id="vodka" name="alcohol" value="vodka">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">
+                {{ _("Отправить") }}
+            </button>
+        </div>
+    </dialog>
 </div>
 </body>
 </html>
