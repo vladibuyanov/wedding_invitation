@@ -294,6 +294,9 @@ body {
         line-height: 1.8;
         color: #3b4c57;
     }
+    & .dress-code-text {
+        font-style: italic;
+    }
 }
 .gifts {
     & h2 {

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-01 18:38+0100\n"
+"POT-Creation-Date: 2025-02-01 19:40+0100\n"
 "PO-Revision-Date: 2025-01-25 15:16+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -22,44 +22,45 @@ msgstr ""
 msgid "Свадебное приглашение"
 msgstr "Svadobné pozvanie"
 
-#: templates/index.html:25
+#: templates/index.html:31
 msgid "Виктория"
 msgstr "Viktória"
 
-#: templates/index.html:26
+#: templates/index.html:32
 msgid "и"
 msgstr "a"
 
-#: templates/index.html:27
+#: templates/index.html:33
 msgid "Владислав"
 msgstr "Vladislav"
 
-#: templates/index.html:30
+#: templates/index.html:36
 msgid "Суббота"
 msgstr "Sobota"
 
-#: templates/index.html:35
+#: templates/index.html:41
 msgid ""
 "В этот день мы хотим пригласить вас, чтобы вы разделили с нами\n"
 "                радость самого важного и трогательного дня нашей жизни."
 msgstr ""
-"V tento deň vás chceme pozvať, aby ste sa s nami podelili\n"
-"                radosť z najdôležitejšieho a najdojímavejšieho dňa nášho "
-"života."
+"Radi by sme vás pozvali, aby ste s nami prežili neopakovateľný deň plný "
+"lásky,\n"
+"                 radosti a krásnych okamihov, ktoré pre nás znamenajú "
+"viac, než slová dokážu vyjadriť. "
 
-#: templates/index.html:40
+#: templates/index.html:46
 msgid "Подтвердить присутствие"
 msgstr "Potvrdiť účasť"
 
-#: templates/index.html:44
+#: templates/index.html:50
 msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
 msgstr "Keď láska naplní srdce, všetko naokolo sa zdá byť krásne."
 
-#: templates/index.html:49
+#: templates/index.html:55
 msgid "Детали"
 msgstr "Podrobnosti"
 
-#: templates/index.html:50
+#: templates/index.html:56
 msgid ""
 "Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
 "будем благодарны за любой вклад в наше будущее!"
@@ -67,11 +68,11 @@ msgstr ""
 "Prineste si so sebou veselosť a radosť v duši, a darčeky v obálke! Budeme"
 " vďační za akýkoľvek príspevok do našej budúcnosti!"
 
-#: templates/index.html:53
+#: templates/index.html:59
 msgid "Место проведения"
 msgstr "Miesto konania"
 
-#: templates/index.html:54
+#: templates/index.html:60
 msgid ""
 "Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP "
 "444/197, 935 41 Tekovské Lužany'"
@@ -79,106 +80,107 @@ msgstr ""
 "Naša svadba sa bude konať v 'PAVLUS Pub & Restaurant' na adrese 'SNP "
 "444/197, 935 41 Tekovské Lužany'"
 
-#: templates/index.html:56
+#: templates/index.html:62
 msgid "Pavlus Pub & Restaurant"
 msgstr "Pavlus Pub & Restaurant"
 
-#: templates/index.html:64
+#: templates/index.html:70
 msgid "Дресс-код"
 msgstr "Dress code"
 
-#: templates/index.html:66
+#: templates/index.html:72
 msgid "Мы будем очень благодарны, если в своих нарядах вы поддержите дресс-код"
-msgstr "Budeme veľmi vďační, ak vo svojich outfitoch dodržíte dress code."
+msgstr "Budeme veľmi vďační, ak vo svojich outfitoch dodržíte dress code"
 
-#: templates/index.html:71
+#: templates/index.html:77
 msgid "Расписание"
 msgstr "Program"
 
-#: templates/index.html:76
+#: templates/index.html:82
 msgid "Церемония"
 msgstr "Obrad"
 
-#: templates/index.html:83
+#: templates/index.html:89
 msgid "Первый Тост"
 msgstr "Prvý prípitok"
 
-#: templates/index.html:90
-msgid "Банкет"
-msgstr "Banket"
-
-#: templates/index.html:97
+#: templates/index.html:96
 msgid "Первый Танец"
 msgstr "Prvý tanec"
 
-#: templates/index.html:104
+#: templates/index.html:103
+msgid "Банкет"
+msgstr "Banket"
+
+#: templates/index.html:110
 msgid "Торт"
 msgstr "Torta"
 
-#: templates/index.html:111
+#: templates/index.html:117
 msgid "Танцы"
 msgstr "Tance"
 
-#: templates/index.html:118
+#: templates/index.html:124
 msgid "Чепчение"
 msgstr "Odčepčenie"
 
-#: templates/index.html:125
+#: templates/index.html:131
 msgid "Праздник"
 msgstr "Oslava"
 
-#: templates/index.html:132
+#: templates/index.html:138
 msgid "До свадьбы осталось!"
 msgstr "Do svadby zostáva!"
 
-#: templates/index.html:136
+#: templates/index.html:142
 msgid "дней"
 msgstr "dní"
 
-#: templates/index.html:140
+#: templates/index.html:146
 msgid "часов"
 msgstr "hodin"
 
-#: templates/index.html:144
+#: templates/index.html:150
 msgid "минут"
 msgstr "minút"
 
-#: templates/index.html:147
+#: templates/index.html:153
 msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
 msgstr "S radosťou vás pozývame osláviť náš výnimočný deň!"
 
-#: templates/index.html:157
+#: templates/index.html:163
 msgid "Подтверждение"
 msgstr "Potvrdenie"
 
-#: templates/index.html:158
+#: templates/index.html:164
 msgid "Ваше имя"
 msgstr "Meno"
 
-#: templates/index.html:159
+#: templates/index.html:165
 msgid "Количество гостей"
 msgstr "Počet hostí"
 
-#: templates/index.html:162
+#: templates/index.html:168
 msgid "Какой алкоголь предпочитаете?"
 msgstr "Aký alkohol uprednostňujete?"
 
-#: templates/index.html:165
+#: templates/index.html:171
 msgid "Вино"
 msgstr "Víno"
 
-#: templates/index.html:169
+#: templates/index.html:175
 msgid "Пиво"
 msgstr "Pivo"
 
-#: templates/index.html:173
+#: templates/index.html:179
 msgid "Самогон"
 msgstr "Domáca pálenka"
 
-#: templates/index.html:177
+#: templates/index.html:183
 msgid "Водка"
 msgstr "Vodka"
 
-#: templates/index.html:184
+#: templates/index.html:190
 msgid "Отправить"
 msgstr "Odoslať"
+
