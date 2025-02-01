@@ -21,7 +21,11 @@
             <img src="/static/images/wedding_photo_1.jpg" alt="Main foto">
         </div>
         <div class="page-header-texts section">
-            <h1 class="names great-vibes-regular header-padding">{{ _("Виктория и Владислав") }}</h1>
+            <h1 class="names great-vibes-regular header-padding">
+                <span>{{ _("Виктория") }}</span>
+                <span>{{ _("и") }}</span>
+                <span>{{ _("Владислав") }}</span>
+            </h1>
             <div class="wedding-time great-vibes-regular header-padding">
                 <p>{{ _("Суббота") }}</p>
                 <p class="date">31-05-2025</p>
@@ -55,6 +59,13 @@
                 id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade">
         </iframe>
+    </div>
+    <div class="dress-code section">
+        <h2 class="great-vibes-regular">{{ _("Дресс-код") }}</h2>
+        <p>
+            {{ _("Мы будем очень благодарны, если в своих нарядах вы поддержите дресс-код") }}
+            <strong>Semi Formal</strong>
+        </p>
     </div>
     <div class="details section">
         <h2 class="great-vibes-regular">{{ _("Расписание") }}</h2>
@@ -120,9 +131,18 @@
     <div class="countdown-div section">
         <h2 class="great-vibes-regular">{{ _("До свадьбы осталось!") }}</h2>
         <div class="countdown-inner-div">
-            <p class="countdown"><span id="countdown-days">0</span> {{ _("дней") }}</p>
-            <p class="countdown"><span id="countdown-hours">0</span> {{ _("часов") }}</p>
-            <p class="countdown"><span id="countdown-minutes">0</span> {{ _("минут") }}</p>
+            <div class="countdown">
+                <p id="countdown-days" class="clock great-vibes-regular">0</p>
+                <p>{{ _("дней") }}</p>
+            </div>
+            <div class="countdown">
+                <p id="countdown-hours" class="clock great-vibes-regular">0</p>
+                <p>{{ _("часов") }}</p>
+            </div>
+            <div class="countdown">
+                <p id="countdown-minutes" class="clock great-vibes-regular">0</p>
+                <p>{{ _("минут") }}</p>
+            </div>
         </div>
         <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
     </div>
