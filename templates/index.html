@@ -20,7 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
     <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
 </head>
-<body>
+<body class="main-body">
 <div class="container">
     <div class="page-header">
         <div class="image-container">
@@ -54,6 +54,10 @@
     <div class="gifts section">
         <h2 class="great-vibes-regular">{{ _("Детали") }}</h2>
         <p>{{ _("Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!") }}</p>
+    </div>
+    <div class="ceremony section">
+        <h2 class="great-vibes-regular">{{ _("Церемония") }}</h2>
+        <p>{{ _("Церемония бракосочетания пройдет в Храме Христианской реформаторской церкви в Калинчакове") }}</p>
     </div>
     <div class="map section">
         <h2 class="great-vibes-regular">{{ _("Место проведения") }}</h2>
@@ -152,7 +156,11 @@
         </div>
         <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
     </div>
-
+    <!-- QR code -->
+<!--    <div>-->
+<!--        <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fvladibuyanov.pythonanywhere.com%2Fupload&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>-->
+<!--    </div>-->
+    <!-- Modal window -->
     <dialog id="modal" class="rspv-dialog">
         <div class="dialog-container">
             <div class="dialog-header-buttons">
