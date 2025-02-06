@@ -4,6 +4,8 @@ from flask import request
 from flask_mail import Message
 
 from googleapiclient.http import MediaFileUpload
+from googleapiclient.discovery import build
+from google.oauth2 import service_account
 
 from core import constants
 
@@ -34,6 +36,12 @@ def create_email(web_request, email):
         body=email_body
     )
 
+def get_drive_service():
+    credentials = service_account.Credentials.from_service_account_file(
+        constants.SERVICE_ACCOUNT_FILE,
+        scopes=constants.SCOPES
+    )
+    return build('drive', 'v3', credentials=credentials)
 
 def upload_files_to_drive(drive_service, files) -> bool:
     for file in files:
@@ -48,4 +56,5 @@ def upload_files_to_drive(drive_service, files) -> bool:
             fields='id'
         ).execute()
         os.remove(file.filename)
+
         return True

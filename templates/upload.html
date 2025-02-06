@@ -16,6 +16,7 @@
         <h1>Загрузите свои фотографии!</h1>
         <form action="/upload" method="POST" enctype="multipart/form-data">
             <input type="file" name="photos" multiple required>
+            <input type="password" name="password">
             <button type="submit">Отправить</button>
         </form>
         {% if message %}
