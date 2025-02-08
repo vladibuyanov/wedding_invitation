@@ -65,8 +65,8 @@ msgid ""
 "Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
 "будем благодарны за любой вклад в наше будущее!"
 msgstr ""
-"Prineste si so sebou veselosť a radosť v duši, a darčeky v obálke! Budeme"
-" vďační za akýkoľvek príspevok do našej budúcnosti!"
+"K svadobnému stolu si prineste dobrú náladu, a ak nás chcete potešiť, "
+"namiesto veľkých darov postačí malá pozornosť v obálke."
 
 #: templates/index.html:59 templates/index.html:86
 msgid "Церемония"
