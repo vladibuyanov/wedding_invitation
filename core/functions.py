@@ -57,4 +57,4 @@ def upload_files_to_drive(drive_service, files) -> bool:
         ).execute()
         os.remove(file.filename)
 
-        return True
+    return True
