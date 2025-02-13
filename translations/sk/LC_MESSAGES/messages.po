@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-13 12:19+0100\n"
+"POT-Creation-Date: 2025-02-13 12:35+0100\n"
 "PO-Revision-Date: 2025-01-25 15:16+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -207,3 +207,8 @@ msgstr "Nahrajte svoje fotografie!"
 #: templates/upload.html:20
 msgid "Выберите файл"
 msgstr "Vyberte súbor"
+
+#: templates/upload.html:23
+msgid "Пароль"
+msgstr "Heslo"
+
