@@ -1,37 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Загрузка фотографий</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="/static/css/styles.css">
-    <link rel="stylesheet" href="/static/css/upload.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
-    <!-- JS -->
-    <script src="{{ url_for('static', filename='js/upload.js') }}" defer></script>
-</head>
+{% extends 'base.html' %}
+
+{% block title %}{{ _("Загрузка фотографий") }}{% endblock %}
+{% block css %}
+<link rel="stylesheet" href="/static/css/upload.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download"/>
+{% endblock %}
+{% block js %}
+<script src="{{ url_for('static', filename='js/upload.js') }}" defer></script>
+{% endblock %}
+{% block content %}
 <body>
     <div class="section" id="upload-section">
-        <h1 class="great-vibes-regular">Загрузите свои фотографии!</h1>
-        <form action="/upload" method="POST" enctype="multipart/form-data">
-            <label for="photo-input" class="label-button">
+    <h1 class="great-vibes-regular">{{ _("Загрузите свои фотографии!") }}</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="photo-input" class="label-button">
                 <span class="label-button-wrapper">
                     <span class="material-symbols-outlined">download</span>
                 </span>
-                <span class="label-button-text" id="photo-input-text">Выберите файл</span>
-            </label>
-            <input type="file" name="photos" id="photo-input" multiple required>
-            <input type="password" name="password" id="pwd-input" placeholder="Пароль">
-            <button type="submit">Отправить</button>
-        </form>
-        {% if message %}
-        <p class="great-vibes-regular">{{ message }}</p>
-        {% endif %}
-    </div>
+            <span class="label-button-text" id="photo-input-text">{{ _("Выберите файл") }}</span>
+        </label>
+        <input type="file" name="photos" id="photo-input" multiple required>
+        <input type="password" name="password" id="pwd-input" placeholder='{{ _("Пароль") }}'>
+        <button type="submit">{{ _("Отправить") }}</button>
+    </form>
+    {% if message %}
+    <p class="great-vibes-regular">{{ message }}</p>
+    {% endif %}
+</div>
 </body>
-</html>
+{% endblock %}

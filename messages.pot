@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-05 14:00+0100\n"
+"POT-Creation-Date: 2025-02-13 12:19+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,167 +17,183 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: templates/index.html:6
+#: templates/404.html:3
+msgid "404 - Страница не найдена"
+msgstr ""
+
+#: templates/index.html:3
 msgid "Свадебное приглашение"
 msgstr ""
 
-#: templates/index.html:31
+#: templates/index.html:17
 msgid "Виктория"
 msgstr ""
 
-#: templates/index.html:32
+#: templates/index.html:18
 msgid "и"
 msgstr ""
 
-#: templates/index.html:33
+#: templates/index.html:19
 msgid "Владислав"
 msgstr ""
 
-#: templates/index.html:36
+#: templates/index.html:22
 msgid "Суббота"
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:27
 msgid ""
 "В этот день мы хотим пригласить вас, чтобы вы разделили с нами\n"
 "                радость самого важного и трогательного дня нашей жизни."
 msgstr ""
 
-#: templates/index.html:46
+#: templates/index.html:32
 msgid "Подтвердить присутствие"
 msgstr ""
 
-#: templates/index.html:50
+#: templates/index.html:36
 msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
 msgstr ""
 
-#: templates/index.html:55
+#: templates/index.html:41
 msgid "Детали"
 msgstr ""
 
-#: templates/index.html:56
+#: templates/index.html:42
 msgid ""
 "Приносите с собой веселье и радость в душе, а подарки в конверте! Мы "
 "будем благодарны за любой вклад в наше будущее!"
 msgstr ""
 
-#: templates/index.html:59 templates/index.html:86
+#: templates/index.html:45 templates/index.html:72
 msgid "Церемония"
 msgstr ""
 
-#: templates/index.html:60
+#: templates/index.html:46
 msgid ""
 "Церемония бракосочетания пройдет в Храме Христианской реформаторской "
 "церкви в Калинчакове"
 msgstr ""
 
-#: templates/index.html:63
+#: templates/index.html:49
 msgid "Место проведения"
 msgstr ""
 
-#: templates/index.html:64
+#: templates/index.html:50
 msgid ""
 "Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP "
 "444/197, 935 41 Tekovské Lužany'"
 msgstr ""
 
-#: templates/index.html:66
+#: templates/index.html:52
 msgid "Pavlus Pub & Restaurant"
 msgstr ""
 
-#: templates/index.html:74
+#: templates/index.html:60
 msgid "Дресс-код"
 msgstr ""
 
-#: templates/index.html:76
+#: templates/index.html:62
 msgid "Мы будем очень благодарны, если в своих нарядах вы поддержите дресс-код"
 msgstr ""
 
-#: templates/index.html:81
+#: templates/index.html:67
 msgid "Расписание"
 msgstr ""
 
-#: templates/index.html:93
+#: templates/index.html:79
 msgid "Первый Тост"
 msgstr ""
 
-#: templates/index.html:100
+#: templates/index.html:86
 msgid "Первый Танец"
 msgstr ""
 
-#: templates/index.html:107
+#: templates/index.html:93
 msgid "Банкет"
 msgstr ""
 
-#: templates/index.html:114
+#: templates/index.html:100
 msgid "Торт"
 msgstr ""
 
-#: templates/index.html:121
+#: templates/index.html:107
 msgid "Танцы"
 msgstr ""
 
-#: templates/index.html:128
+#: templates/index.html:114
 msgid "Чепчение"
 msgstr ""
 
-#: templates/index.html:135
+#: templates/index.html:121
 msgid "Праздник"
 msgstr ""
 
-#: templates/index.html:142
+#: templates/index.html:128
 msgid "До свадьбы осталось!"
 msgstr ""
 
-#: templates/index.html:146
+#: templates/index.html:132
 msgid "дней"
 msgstr ""
 
-#: templates/index.html:150
+#: templates/index.html:136
 msgid "часов"
 msgstr ""
 
-#: templates/index.html:154
+#: templates/index.html:140
 msgid "минут"
 msgstr ""
 
-#: templates/index.html:157
+#: templates/index.html:143
 msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
 msgstr ""
 
-#: templates/index.html:171
+#: templates/index.html:157
 msgid "Подтверждение"
 msgstr ""
 
-#: templates/index.html:172
+#: templates/index.html:158
 msgid "Ваше имя"
 msgstr ""
 
-#: templates/index.html:173
+#: templates/index.html:159
 msgid "Количество гостей"
 msgstr ""
 
-#: templates/index.html:176
+#: templates/index.html:162
 msgid "Какой алкоголь предпочитаете?"
 msgstr ""
 
-#: templates/index.html:179
+#: templates/index.html:165
 msgid "Вино"
 msgstr ""
 
-#: templates/index.html:183
+#: templates/index.html:169
 msgid "Пиво"
 msgstr ""
 
-#: templates/index.html:187
+#: templates/index.html:173
 msgid "Самогон"
 msgstr ""
 
-#: templates/index.html:191
+#: templates/index.html:177
 msgid "Водка"
 msgstr ""
 
-#: templates/index.html:198
+#: templates/index.html:184 templates/upload.html:24
 msgid "Отправить"
+msgstr ""
+
+#: templates/upload.html:3
+msgid "Загрузка фотографий"
+msgstr ""
+
+#: templates/upload.html:14
+msgid "Загрузите свои фотографии!"
+msgstr ""
+
+#: templates/upload.html:20
+msgid "Выберите файл"
 msgstr ""
 
