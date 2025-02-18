@@ -43,7 +43,7 @@ h1 {
     color: var(--main-font-color);
 }
 h2 {
-    font-size: 3rem;
+    font-size: clamp(2rem, 2.5rem + 1vw, 3rem);
 }
 
 /* Кнопки */
@@ -151,7 +151,6 @@ body {
             & button {
                 padding: 20px;
                 margin: 2rem;
-                font-size: 1.5rem;
                 font-style: italic;
             }
             & .line {
@@ -240,7 +239,7 @@ body {
                 }
                 & label {
                     width: 30px;
-                    min-width: 80px;
+                    min-width: 110px;
                 }
                 & input {
                     margin: 0;
@@ -399,8 +398,8 @@ body {
     body {
         margin: 8px;
     }
-    h2 {
-        font-size: 2rem;
+    & button {
+        font-size: 1.2rem;
     }
     .section {
         padding: 1.5rem;
@@ -446,7 +445,6 @@ body {
                 }
                 & button {
                     margin: 0;
-                    font-size: 1rem;
                 }
             }
         }
@@ -485,8 +483,14 @@ body {
     & .rspv-dialog {
         width: 75%;
         & .dialog-container {
+            padding: 1rem 1.5rem;
             & h2 {
-                font-size: 1.4rem
+                font-size: 1.8rem;
+                text-align: center;
+                margin: 1.5rem 0;
+            }
+            & label {
+                font-size: 1rem;
             }
             & .alcohol {
                 & .alcohol-inner {
@@ -495,7 +499,7 @@ body {
             }
             & .dialog-header-buttons {
                 & #close-dialog-button {
-                    padding: 2px 10px;
+                    padding: 4px 10px;
                     font-size: 0.5rem;
                 }
             }

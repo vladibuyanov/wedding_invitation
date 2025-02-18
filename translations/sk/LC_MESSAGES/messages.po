@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-02-13 12:35+0100\n"
+"POT-Creation-Date: 2025-02-16 12:01+0100\n"
 "PO-Revision-Date: 2025-01-25 15:16+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sk\n"
@@ -160,39 +160,51 @@ msgstr "minút"
 msgid "С радостью приглашаем вас отпраздновать наш особенный день!"
 msgstr "S radosťou vás pozývame osláviť náš výnimočný deň!"
 
-#: templates/index.html:157
+#: templates/index.html:158
 msgid "Подтверждение"
 msgstr "Potvrdenie"
 
-#: templates/index.html:158
+#: templates/index.html:159
 msgid "Ваше имя"
 msgstr "Meno"
 
-#: templates/index.html:159
+#: templates/index.html:160
 msgid "Количество гостей"
 msgstr "Počet hostí"
 
-#: templates/index.html:162
+#: templates/index.html:163
 msgid "Какой алкоголь предпочитаете?"
 msgstr "Aký alkohol uprednostňujete?"
 
-#: templates/index.html:165
+#: templates/index.html:166
 msgid "Вино"
 msgstr "Víno"
 
-#: templates/index.html:169
+#: templates/index.html:170
 msgid "Пиво"
 msgstr "Pivo"
 
-#: templates/index.html:173
+#: templates/index.html:174
 msgid "Самогон"
 msgstr "Domáca pálenka"
 
-#: templates/index.html:177
+#: templates/index.html:178
 msgid "Водка"
 msgstr "Vodka"
 
-#: templates/index.html:184 templates/upload.html:24
+#: templates/index.html:182
+msgid "Джин"
+msgstr "Gin"
+
+#: templates/index.html:186
+msgid "Ром"
+msgstr "Rum"
+
+#: templates/index.html:190
+msgid "Ягермейстер"
+msgstr "Jagermeister"
+
+#: templates/index.html:197 templates/upload.html:24
 msgid "Отправить"
 msgstr "Odoslať"
 

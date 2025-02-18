@@ -142,6 +142,7 @@
         </div>
         <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
     </div>
+
     <!-- QR code -->
 <!--    <div>-->
 <!--        <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fvladibuyanov.pythonanywhere.com%2Fupload&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>-->
@@ -156,7 +157,7 @@
                 <div class="main-info">
                     <h2 class="great-vibes-regular">{{ _("Подтверждение") }}</h2>
                     <input type="text" name="name" placeholder="{{ _('Ваше имя') }}" required>
-                    <input type="text" name="guests" placeholder="{{ _('Количество гостей') }}" required>
+                    <input type="number" name="guests" placeholder="{{ _('Количество гостей') }}" required>
                 </div>
                 <div class="alcohol">
                     <h2 class="great-vibes-regular">{{ _("Какой алкоголь предпочитаете?") }}</h2>
@@ -176,6 +177,18 @@
                         <div class="alcohol-option">
                             <label for="vodka">{{ _("Водка") }}</label>
                             <input type="checkbox" id="vodka" name="alcohol" value="vodka">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="gin">{{ _("Джин") }}</label>
+                            <input type="checkbox" id="gin" name="alcohol" value="vodka">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="rum">{{ _("Ром") }}</label>
+                            <input type="checkbox" id="rum" name="alcohol" value="vodka">
+                        </div>
+                        <div class="alcohol-option">
+                            <label for="jager">{{ _("Ягермейстер") }}</label>
+                            <input type="checkbox" id="jager" name="alcohol" value="vodka">
                         </div>
                     </div>
                 </div>
