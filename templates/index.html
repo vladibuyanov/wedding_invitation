@@ -49,7 +49,11 @@
         <h2 class="great-vibes-regular">{{ _("Место проведения") }}</h2>
         <p style="display: none;">{{ _("Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP 444/197, 935 41 Tekovské Lužany'") }}</p>
         <div class="image-place">
-            <h2 id="place-name" class="great-vibes-regular">{{ _("Pavlus Pub & Restaurant") }}</h2>
+            <div id="place-name">
+                <h3 class="great-vibes-regular">Pavlus Pub</h3>
+                <h3 class="great-vibes-regular">&</h3>
+                <h3 class="great-vibes-regular">Restaurant</h3>
+            </div>
         </div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.4218351817613!2d18.540578146149432!3d48.098600027543476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476ae7ac1c26413b%3A0xfae7a5e5634a4304!2sPAVLUS%20Pub%20%26%20Restaurant!5e0!3m2!1sru!2ssk!4v1733689333051!5m2!1sru!2ssk"
                 id="google-map" width="600" height="450" allowfullscreen="" loading="lazy"
@@ -142,11 +146,6 @@
         </div>
         <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
     </div>
-
-    <!-- QR code -->
-<!--    <div>-->
-<!--        <img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fvladibuyanov.pythonanywhere.com%2Fupload&chs=180x180&choe=UTF-8&chld=L|2" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>-->
-<!--    </div>-->
     <!-- Modal window -->
     <dialog id="modal" class="rspv-dialog">
         <div class="dialog-container">
@@ -180,22 +179,20 @@
                         </div>
                         <div class="alcohol-option">
                             <label for="gin">{{ _("Джин") }}</label>
-                            <input type="checkbox" id="gin" name="alcohol" value="vodka">
+                            <input type="checkbox" id="gin" name="alcohol" value="gin">
                         </div>
                         <div class="alcohol-option">
                             <label for="rum">{{ _("Ром") }}</label>
-                            <input type="checkbox" id="rum" name="alcohol" value="vodka">
+                            <input type="checkbox" id="rum" name="alcohol" value="rum">
                         </div>
                         <div class="alcohol-option">
                             <label for="jager">{{ _("Ягермейстер") }}</label>
-                            <input type="checkbox" id="jager" name="alcohol" value="vodka">
+                            <input type="checkbox" id="jager" name="alcohol" value="jager">
                         </div>
                     </div>
                 </div>
             </form>
-            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">
-                {{ _("Отправить") }}
-            </button>
+            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">{{ _("Отправить") }}</button>
         </div>
     </dialog>
 </div>

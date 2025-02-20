@@ -45,6 +45,9 @@ h1 {
 h2 {
     font-size: clamp(2rem, 2.5rem + 1vw, 3rem);
 }
+h3 {
+    font-size: clamp(1.5rem, 2.0rem + 1vw, 2.5rem);
+}
 
 /* Кнопки */
 button {
@@ -95,9 +98,6 @@ body {
     transform: translateY(50px);
     transition: opacity 0.6s ease, transform 0.6s ease;
     padding: 2rem 3rem;
-}
-#upload-section {
-    opacity: 100;
 }
 .visible {
     opacity: 1;
@@ -339,13 +339,15 @@ body {
         flex-direction: column;
         justify-content: center;
         border-radius: 10px;
-
-        & h2 {
+        & #place-name {
+            padding: 1rem;
             background-color: var(--second-background-color);
-            text-align: center;
-            padding: 2rem;
-            color: rgba(255, 255, 255, 0.5);
-            text-shadow: 1px 1px 0px white;
+            & h3 {
+                margin: 0;
+                text-align: center;
+                color: rgba(255, 255, 255, 0.5);
+                text-shadow: 1px 1px 0px white;
+            }
         }
         & #place-name:hover {
             cursor: pointer;
