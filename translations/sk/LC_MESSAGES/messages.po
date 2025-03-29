@@ -56,9 +56,6 @@ msgstr ""
 msgid "Подтвердить присутствие"
 msgstr "Potvrdiť účasť"
 
-#: templates/index.html:36
-msgid "Когда любовь заполняет сердце, всё вокруг кажется прекрасным."
-msgstr "Keď láska naplní srdce, všetko naokolo sa zdá byť krásne."
 
 #: templates/index.html:41
 msgid "Детали"

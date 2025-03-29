@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ _("Свадебное приглашение") }}{% endblock %}
+{% block title %}{{ _("Svadobné pozvanie") }}{% endblock %}
 {% block js%}
 <script src="https://cdn.jsdelivr.net/npm/luxon@3.3.0/build/global/luxon.min.js"></script>
 <script src="{{ url_for('static', filename='js/main.js') }}" defer></script>
@@ -14,22 +14,23 @@
         </div>
         <div class="page-header-texts section">
             <h1 class="names great-vibes-regular header-padding">
-                <span>{{ _("Виктория") }}</span>
-                <span>{{ _("и") }}</span>
-                <span>{{ _("Владислав") }}</span>
+                <span>{{ _("Alexandra") }}</span>
+                <span>{{ _("a") }}</span>
+                <span>{{ _("František") }}</span>
             </h1>
             <div class="wedding-time great-vibes-regular header-padding">
-                <p>{{ _("Суббота") }}</p>
-                <p class="date">31-05-2025</p>
+                <p>{{ _("Sobota") }}</p>
+                <p class="date">03-05-2025</p>
                 <p>15:00</p>
             </div>
             <p class="invite-text header-padding">
-                {{ _("В этот день мы хотим пригласить вас, чтобы вы разделили с нами
-                радость самого важного и трогательного дня нашей жизни.") }}
+                {{ _("Radi by sme vás pozvali, aby ste s nami prežili
+                neopakovateľný deň plný lásky radosti a krásnych okamihov,
+                ktoré pre nás znamenajú viac, než slová dokážu vyjadriť.") }}
             </p>
             <div class="rsvp row-flex-div header-padding">
                 <hr class="line">
-                <button id="rspv-open-button">{{ _("Подтвердить присутствие") }}</button>
+                <button id="rspv-open-button">{{ _("Potvrdiť účasť") }}</button>
                 <hr class="line">
             </div>
 <!--            <blockquote class="quote great-vibes-regular">-->
@@ -38,16 +39,26 @@
         </div>
     </div>
     <div class="gifts section">
-        <h2 class="great-vibes-regular">{{ _("Детали") }}</h2>
-        <p>{{ _("Приносите с собой веселье и радость в душе, а подарки в конверте! Мы будем благодарны за любой вклад в наше будущее!") }}</p>
+        <h2 class="great-vibes-regular">{{ _("Podrobnosti") }}</h2>
+        <p>
+            {{ _("K svadobnému stolu si prineste dobrú náladu,
+            a ak nás chcete potešiť, namiesto veľkých darov postačí
+            malá pozornosť v obálke.") }}
+        </p>
     </div>
     <div class="ceremony section">
-        <h2 class="great-vibes-regular">{{ _("Церемония") }}</h2>
-        <p>{{ _("Церемония бракосочетания пройдет в Храме Христианской реформаторской церкви в Калинчакове") }}</p>
+        <h2 class="great-vibes-regular">{{ _("Obrad") }}</h2>
+        <p>
+            {{ _("Svadobný obrad sa bude konať v kostole Kresťanskej
+            reformovanej cirkvi v Kalinčiakove.") }}
+        </p>
     </div>
     <div class="map section">
-        <h2 class="great-vibes-regular">{{ _("Место проведения") }}</h2>
-        <p style="display: none;">{{ _("Наша свадьба будет проходить в 'PAVLUS Pub & Restaurant' по адресу 'SNP 444/197, 935 41 Tekovské Lužany'") }}</p>
+        <h2 class="great-vibes-regular">{{ _("Miesto konania") }}</h2>
+        <p style="display: none;">
+            {{ _("Naša svadba sa bude konať v 'PAVLUS Pub & Restaurant'
+            na adrese 'SNP' 444/197, 935 41 Tekovské Lužany'") }}
+        </p>
         <div class="image-place">
             <div id="place-name">
                 <h3 class="great-vibes-regular">Pavlus Pub</h3>
@@ -61,90 +72,92 @@
         </iframe>
     </div>
     <div class="dress-code section">
-        <h2 class="great-vibes-regular">{{ _("Дресс-код") }}</h2>
+        <h2 class="great-vibes-regular">{{ _("Dress code") }}</h2>
         <p>
-            {{ _("Мы будем очень благодарны, если в своих нарядах вы поддержите дресс-код") }}
+            {{ _("Budeme veľmi vďační, ak vo svojich outfitoch dodržíte dress code") }}
         </p>
         <p class="dress-code-text">Semi Formal</p>
     </div>
     <div class="details section">
-        <h2 class="great-vibes-regular">{{ _("Расписание") }}</h2>
+        <h2 class="great-vibes-regular">{{ _("Program") }}</h2>
         <ul>
             <li>
                 <img src="/static/images/timeline/rings.png" alt="">
                 <div>
-                    <p>{{ _("Церемония") }}</p>
+                    <p>{{ _("Obrad") }}</p>
                     <strong>15:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/glasses.png" alt="">
                 <div>
-                    <p>{{ _("Первый Тост") }}</p>
+                    <p>{{ _("Prvý prípitok") }}</p>
                     <strong>17:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/music.png" alt="">
                 <div>
-                    <p>{{ _("Первый Танец") }}</p>
+                    <p>{{ _("Prvý tanec") }}</p>
                     <strong>18:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/plates.png" alt="">
                 <div>
-                    <p>{{ _("Банкет") }}</p>
+                    <p>{{ _("Banket") }}</p>
                     <strong>18:30</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/cake.png" alt="">
                 <div>
-                    <p>{{ _("Торт") }}</p>
+                    <p>{{ _("Torta") }}</p>
                     <strong>20:30</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/discoball.png" alt="">
                 <div>
-                    <p>{{ _("Танцы") }}</p>
+                    <p>{{ _("Tance") }}</p>
                     <strong>21:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/kokosnic.png" alt="">
                 <div>
-                    <p>{{ _("Чепчение") }}</p>
+                    <p>{{ _("Odčepčenie") }}</p>
                     <strong>23:00</strong>
                 </div>
             </li>
             <li>
                 <img src="/static/images/timeline/fireworks.png" alt="">
                 <div>
-                    <p>{{ _("Праздник") }}</p>
+                    <p>{{ _("Oslava") }}</p>
                     <strong>00:00</strong>
                 </div>
             </li>
         </ul>
     </div>
     <div class="countdown-div section">
-        <h2 class="great-vibes-regular">{{ _("До свадьбы осталось!") }}</h2>
+        <h2 class="great-vibes-regular">{{ _("Do svadby zostáva!") }}</h2>
         <div class="countdown-inner-div">
             <div class="countdown">
                 <p id="countdown-days" class="clock great-vibes-regular">0</p>
-                <p>{{ _("дней") }}</p>
+                <p>{{ _("dní") }}</p>
             </div>
             <div class="countdown">
                 <p id="countdown-hours" class="clock great-vibes-regular">0</p>
-                <p>{{ _("часов") }}</p>
+                <p>{{ _("hodin") }}</p>
             </div>
             <div class="countdown">
                 <p id="countdown-minutes" class="clock great-vibes-regular">0</p>
-                <p>{{ _("минут") }}</p>
+                <p>{{ _("minút") }}</p>
             </div>
         </div>
-        <h2 class="great-vibes-regular">{{ _("С радостью приглашаем вас отпраздновать наш особенный день!") }}</h2>
+        <h2 class="great-vibes-regular">
+            {{ _("S radosťou vás pozývame osláviť náš výnimočný deň!") }}
+        </h2>
     </div>
     <!-- Modal window -->
     <dialog id="modal" class="rspv-dialog">
@@ -154,45 +167,45 @@
             </div>
             <form method="dialog">
                 <div class="main-info">
-                    <h2 class="great-vibes-regular">{{ _("Подтверждение") }}</h2>
-                    <input type="text" name="name" placeholder="{{ _('Ваше имя') }}" required>
-                    <input type="number" name="guests" placeholder="{{ _('Количество гостей') }}" required>
+                    <h2 class="great-vibes-regular">{{ _("Potvrdenie") }}</h2>
+                    <input type="text" name="name" placeholder="{{ _('Meno') }}" required>
+                    <input type="number" name="guests" placeholder="{{ _('Počet hostí') }}" required>
                 </div>
                 <div class="alcohol">
-                    <h2 class="great-vibes-regular">{{ _("Какой алкоголь предпочитаете?") }}</h2>
+                    <h2 class="great-vibes-regular">{{ _("Aký alkohol uprednostňujete?") }}</h2>
                     <div class="alcohol-inner">
                         <div class="alcohol-option">
-                            <label for="vine">{{ _("Вино") }}</label>
+                            <label for="vine">{{ _("Víno") }}</label>
                             <input type="checkbox" id="vine" name="alcohol" value="vine">
                         </div>
                         <div class="alcohol-option">
-                            <label for="beer">{{ _("Пиво") }}</label>
+                            <label for="beer">{{ _("Pivo") }}</label>
                             <input type="checkbox" id="beer" name="alcohol" value="beer">
                         </div>
                         <div class="alcohol-option">
-                            <label for="samogon">{{ _("Самогон") }}</label>
+                            <label for="samogon">{{ _("Domáca pálenka") }}</label>
                             <input type="checkbox" id="samogon" name="alcohol" value="samogon">
                         </div>
                         <div class="alcohol-option">
-                            <label for="vodka">{{ _("Водка") }}</label>
+                            <label for="vodka">{{ _("Vodka") }}</label>
                             <input type="checkbox" id="vodka" name="alcohol" value="vodka">
                         </div>
                         <div class="alcohol-option">
-                            <label for="gin">{{ _("Джин") }}</label>
+                            <label for="gin">{{ _("Gin") }}</label>
                             <input type="checkbox" id="gin" name="alcohol" value="gin">
                         </div>
                         <div class="alcohol-option">
-                            <label for="rum">{{ _("Ром") }}</label>
+                            <label for="rum">{{ _("Rum") }}</label>
                             <input type="checkbox" id="rum" name="alcohol" value="rum">
                         </div>
                         <div class="alcohol-option">
-                            <label for="jager">{{ _("Ягермейстер") }}</label>
+                            <label for="jager">{{ _("Jagermeister") }}</label>
                             <input type="checkbox" id="jager" name="alcohol" value="jager">
                         </div>
                     </div>
                 </div>
             </form>
-            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">{{ _("Отправить") }}</button>
+            <button id="submit-dialog-button" type="submit" class="great-vibes-regular">{{ _("Odoslať") }}</button>
         </div>
     </dialog>
 </div>

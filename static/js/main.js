@@ -1,5 +1,5 @@
 /* Countdown */
-let weddingDate = luxon.DateTime.fromISO("2025-05-31T16:00:00");
+let weddingDate = luxon.DateTime.fromISO("2025-05-03T15:00:00");
 
 let countdownElementDays = document.getElementById("countdown-days");
 let countdownElementHours = document.getElementById("countdown-hours");
