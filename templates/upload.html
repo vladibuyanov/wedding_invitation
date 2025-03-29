@@ -11,17 +11,17 @@
 {% block content %}
 <body>
     <div class="section" id="upload-section">
-    <h1 class="great-vibes-regular">{{ _("Загрузите свои фотографии!") }}</h1>
+    <h1 class="great-vibes-regular">{{ _("Nahratie fotografií!") }}</h1>
     <form action="/upload" method="POST" enctype="multipart/form-data">
         <label for="photo-input" class="label-button">
                 <span class="label-button-wrapper">
                     <span class="material-symbols-outlined">download</span>
                 </span>
-            <span class="label-button-text" id="photo-input-text">{{ _("Выберите файл") }}</span>
+            <span class="label-button-text" id="photo-input-text">{{ _("Vyberte súbor") }}</span>
         </label>
         <input type="file" name="photos" id="photo-input" multiple required>
-        <input type="password" name="password" id="pwd-input" placeholder='{{ _("Пароль") }}'>
-        <button type="submit">{{ _("Отправить") }}</button>
+        <input type="password" name="password" id="pwd-input" placeholder='{{ _("Heslo") }}'>
+        <button type="submit">{{ _("Odoslať") }}</button>
     </form>
     {% if message %}
     <p class="great-vibes-regular">{{ message }}</p>
