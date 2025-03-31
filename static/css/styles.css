@@ -248,7 +248,7 @@ body {
         }
         & .alcohol {
             & .alcohol-inner {
-                padding: 1rem;
+                padding: 2rem;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-row-gap: 1rem;
@@ -496,7 +496,6 @@ body {
             & .alcohol {
                 & .alcohol-inner {
                     grid-template-columns: repeat(1, 1fr);
-                    padding: 2rem;
                 }
             }
             & .dialog-header-buttons {

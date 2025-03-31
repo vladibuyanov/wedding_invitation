@@ -165,8 +165,10 @@
             <form method="dialog">
                 <div class="main-info">
                     <h2 class="great-vibes-regular">{{ _("Potvrdenie") }}</h2>
-                    <input type="text" name="name" placeholder="{{ _('Meno') }}" required>
-                    <input type="number" name="guests" placeholder="{{ _('Počet hostí') }}" required>
+                    <div>
+                        <input type="text" name="name" placeholder="{{ _('Meno') }}" required>
+                        <input type="number" name="guests" placeholder="{{ _('Počet hostí') }}" required>
+                    </div>
                 </div>
                 <div class="alcohol">
                     <h2 class="great-vibes-regular">{{ _("Aký alkohol uprednostňujete?") }}</h2>
