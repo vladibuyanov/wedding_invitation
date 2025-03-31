@@ -196,6 +196,8 @@ body {
     border: none;
     border-radius: 10px;
     width: 50%;
+    max-width: 725px;
+    max-height: 750px;
 
     & .dialog-container {
         padding: 1rem 2rem;
