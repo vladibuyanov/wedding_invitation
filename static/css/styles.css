@@ -6,6 +6,7 @@
 
     --main-font-color: #af8b39;
     --second-font-color: #6d6d6d;
+    --third-font-color: white;
 
     --main-background-color: rgba(255, 255, 255, 0.9);
     --second-background-color: rgba(46, 61, 73, 0.1);
@@ -17,6 +18,9 @@
 
     --button-third-color: #82807b6e;
     --button-third-color-additional: #82807b;
+
+    --test-color: #39644c;
+    --test-color_2: #28533b;
 }
 
 .great-vibes-regular {
@@ -33,14 +37,33 @@
     flex-direction: column;
 }
 
+/* Colors */
+h1, h2 {
+    color: var(--test-color);
+}
+h3 {
+    color: var(--third-font-color);
+}
+p {
+    color: var(--second-font-color);
+}
+button {
+    background-color: var(--test-color);
+}
+button:hover {
+    background-color: var(--test-color_2);
+}
+input {
+    border-color: var(--test-color);
+}
+
+
 /* Заголовок */
 h1 {
     margin-bottom: 20px;
-
     font-size: 3rem;
     font-style: italic;
     letter-spacing: 1.5px;
-    color: var(--main-font-color);
 }
 h2 {
     font-size: clamp(2rem, 2.5rem + 1vw, 3rem);
@@ -53,15 +76,11 @@ h3 {
 button {
     font-size: 1.5rem;
     padding: 10px 20px;
-    background-color: var(--button-background-color);
     color: #ffffff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
-button:hover {
-    background-color: var(--button-second-color);
 }
 
 /* Main */
@@ -75,9 +94,10 @@ body {
     overflow-x: hidden;
 }
 .main-body {
-    background-image: url("../images/wedding_photo.jpg");
+    /* background-image: url("../images/wedding_photo.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--test-color);
 }
 .container {
     text-align: center;
@@ -139,6 +159,9 @@ body {
             justify-content: space-around;
             align-items: center;
             margin: 1rem 0;
+            & p {
+                color: var(--main-font-color);
+            }
         }
         & .invite-text {
             margin: 3rem 0;
@@ -215,7 +238,7 @@ body {
             width: 100%;
             padding: 10px;
             margin-bottom: 15px;
-            border: 1px solid var(--button-background-color);
+            border: 1px solid;
             border-radius: 5px;
             font-size: 1rem;
             box-sizing: border-box;
@@ -256,9 +279,6 @@ body {
 
 .details {
     border-radius: 10px;
-    & h2 {
-        color: var(--main-font-color);
-    }
     & ul {
         text-align: left;
         background-color: var(--second-background-color);
@@ -292,43 +312,27 @@ body {
     }
 }
 .dress-code {
-    & h2 {
-        color: var(--main-font-color);
-    }
     & p {
         font-size: 1.5rem;
         line-height: 1.8;
-        color: #3b4c57;
     }
     & .dress-code-text {
         font-style: italic;
     }
 }
 .gifts {
-    & h2 {
-        color: var(--main-font-color);
-    }
     & p {
         font-size: 1.5rem;
         line-height: 1.8;
-        color: #3b4c57;
     }
 }
 .ceremony {
-    & h2 {
-        color: var(--main-font-color);
-    }
     & p {
         font-size: 1.5rem;
         line-height: 1.8;
-        color: #3b4c57;
     }
 }
 .map {
-    & h2 {
-        color: var(--main-font-color);
-    }
-
     & .image-place {
         background-image: url("../images/place.jpg");
         background-size: cover;
@@ -345,8 +349,6 @@ body {
             & h3 {
                 margin: 0;
                 text-align: center;
-                color: rgba(255, 255, 255, 0.5);
-                text-shadow: 1px 1px 0px white;
             }
         }
         & #place-name:hover {
@@ -373,7 +375,6 @@ body {
 .countdown-div {
     & h2 {
         margin-bottom: 1rem;
-        color: var(--main-font-color);
     }
     & .countdown-inner-div {
         margin: 2rem 0;
@@ -390,6 +391,8 @@ body {
             & .clock {
                 margin: 0;
                 font-size: 4rem;
+                color: var(--main-font-color);
+            }
             }
         }
     }
