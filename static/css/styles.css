@@ -94,8 +94,6 @@ body {
 }
 .main-body {
     background-image: url("../images/flowers.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     background-color: var(--test-color);
 }
 .container {
