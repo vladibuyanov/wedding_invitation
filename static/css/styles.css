@@ -103,6 +103,7 @@ body {
     max-width: 800px;
 
     border-radius: 15px;
+    border: 5px solid var(--button-background-color);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 
     color: var(--second-font-color);
@@ -195,6 +196,7 @@ body {
     width: 50%;
     max-width: 725px;
     max-height: 750px;
+    border: 5px solid var(--button-background-color);
 
     & .dialog-container {
         padding: 1rem 2rem;
@@ -287,12 +289,14 @@ body {
         border-radius: 5px;
         padding: 3rem;
         margin: 0;
+        border: 2px solid var(--button-background-color);
 
         & li {
             display: flex;
             align-items: center;
             justify-content: flex-start;
             font-size: 1.5rem;
+            margin: 2rem 0;
 
             & img {
                 width: 30%;
@@ -339,6 +343,7 @@ body {
         background-size: cover;
         background-position: center;
         height: 25rem;
+        border: 2px solid var(--button-background-color);
 
         display: flex;
         flex-direction: column;

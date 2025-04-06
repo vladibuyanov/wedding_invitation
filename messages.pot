@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-29 22:57+0100\n"
+"POT-Creation-Date: 2025-04-06 12:32+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -68,131 +68,121 @@ msgid ""
 "            malá pozornosť v obálke."
 msgstr ""
 
-#: templates/index.html:47 templates/index.html:84
+#: templates/index.html:47 templates/index.html:81
 msgid "Obrad"
 msgstr ""
 
-#: templates/index.html:49
-msgid ""
-"Svadobný obrad sa bude konať v kostole Kresťanskej\n"
-"            reformovanej cirkvi v Kalinčiakove."
+#: templates/index.html:48
+msgid "Svadobný obrad sa bude konať v Reformovanom kostole, Malé Ludince."
 msgstr ""
 
-#: templates/index.html:54
+#: templates/index.html:51
 msgid "Miesto konania"
 msgstr ""
 
-#: templates/index.html:56
+#: templates/index.html:53
 msgid ""
 "Naša svadba sa bude konať v 'PAVLUS Pub & Restaurant'\n"
 "            na adrese 'SNP' 444/197, 935 41 Tekovské Lužany'"
 msgstr ""
 
-#: templates/index.html:72
+#: templates/index.html:69
 msgid "Dress code"
 msgstr ""
 
-#: templates/index.html:74
+#: templates/index.html:71
 msgid "Budeme veľmi vďační, ak vo svojich outfitoch dodržíte dress code"
 msgstr ""
 
-#: templates/index.html:79
+#: templates/index.html:76
 msgid "Program"
 msgstr ""
 
-#: templates/index.html:91
-msgid "Prvý prípitok"
+#: templates/index.html:88
+msgid "Presun na hostinu"
 msgstr ""
 
-#: templates/index.html:98
-msgid "Prvý tanec"
+#: templates/index.html:95
+msgid "Večera"
 msgstr ""
 
-#: templates/index.html:105
-msgid "Banket"
-msgstr ""
-
-#: templates/index.html:112
+#: templates/index.html:102
 msgid "Torta"
 msgstr ""
 
-#: templates/index.html:119
-msgid "Tance"
+#: templates/index.html:109
+msgid "Čepčenie"
 msgstr ""
 
-#: templates/index.html:126
-msgid "Odčepčenie"
+#: templates/index.html:116
+msgid "Mladuchin tanec"
 msgstr ""
 
-#: templates/index.html:133
-msgid "Oslava"
-msgstr ""
-
-#: templates/index.html:140
+#: templates/index.html:123
 msgid "Do svadby zostáva!"
 msgstr ""
 
-#: templates/index.html:144
+#: templates/index.html:127
 msgid "dní"
 msgstr ""
 
-#: templates/index.html:148
+#: templates/index.html:131
 msgid "hodin"
 msgstr ""
 
-#: templates/index.html:152
+#: templates/index.html:135
 msgid "minút"
 msgstr ""
 
-#: templates/index.html:156
+#: templates/index.html:139
 msgid "S radosťou vás pozývame osláviť náš výnimočný deň!"
 msgstr ""
 
-#: templates/index.html:167
+#: templates/index.html:150
 msgid "Potvrdenie"
 msgstr ""
 
-#: templates/index.html:168
+#: templates/index.html:152
 msgid "Meno"
 msgstr ""
 
-#: templates/index.html:169
+#: templates/index.html:153
 msgid "Počet hostí"
 msgstr ""
 
-#: templates/index.html:172
+#: templates/index.html:157
 msgid "Aký alkohol uprednostňujete?"
 msgstr ""
 
-#: templates/index.html:175
+#: templates/index.html:160
 msgid "Víno"
 msgstr ""
 
-#: templates/index.html:179
+#: templates/index.html:164
 msgid "Pivo"
 msgstr ""
 
-#: templates/index.html:183
+#: templates/index.html:168
 msgid "Domáca pálenka"
 msgstr ""
 
-#: templates/index.html:187
+#: templates/index.html:172
 msgid "Vodka"
 msgstr ""
 
-#: templates/index.html:191
+#: templates/index.html:176
 msgid "Gin"
 msgstr ""
 
-#: templates/index.html:195
+#: templates/index.html:180
 msgid "Rum"
 msgstr ""
 
-#: templates/index.html:199
+#: templates/index.html:184
 msgid "Jagermeister"
 msgstr ""
 
-#: templates/index.html:205 templates/upload.html:24
+#: templates/index.html:190 templates/upload.html:24
 msgid "Odoslať"
 msgstr ""
 

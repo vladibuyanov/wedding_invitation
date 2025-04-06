@@ -37,32 +37,41 @@ def submit_form():
     try:
         msg = functions.create_email(request, email)
         mail.send(msg)
-        return jsonify({"message": "Данные успешно отправлены и письмо отправлено!"}), 200
+        message_sk = 'Údaje boli úspešne odoslané a list bol odoslaný!'
+        # message_ru = "Данные успешно отправлены и письмо отправлено!"
+        return jsonify({"message": message_sk}), 200
 
     except Exception as e:
         print("Ошибка:", e)
-        return jsonify({"message": "Ошибка при отправке письма."}), 500
+        error_message_sk = 'Chyba pri odosielaní e-mailu.'
+        # error_message_ru = "Ошибка при отправке письма."
+        return jsonify({"message": error_message_sk}), 500
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     drive_service = functions.get_drive_service()
-    message = None
+    message_sk = "Súbory boli úspešne nahrané!"
+    # message_ru = "Файлы успешно загружены!"
 
     if request.method == 'POST':
         files = request.files.getlist('photos')
         pwd = request.form.get("password")
 
         if pwd != password:
-            return "Пароль неправильный", 403
+            # error_pwd_ru = "Пароль неправильный"
+            error_pwd_sk = "Heslo je nesprávne"
+
+            return error_pwd_sk, 403
 
         result = functions.upload_files_to_drive(drive_service=drive_service, files=files)
 
         if not result:
-            return "Ошибка: Только фото разрешены!", 400
+            # error_file_ru = "Ошибка: Только фото разрешены!"
+            error_file_sk = "Chyba: Povolené sú iba fotografie!"
 
-        message = "Файлы успешно загружены!"
+            return error_file_sk, 400
 
-    return render_template('upload.html', message=message)
+    return render_template('upload.html', message=message_sk)
 
 
 @app.errorhandler(404)

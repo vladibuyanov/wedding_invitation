@@ -9,7 +9,7 @@
 <script src="{{ url_for('static', filename='js/upload.js') }}" defer></script>
 {% endblock %}
 {% block content %}
-<body>
+<body class="main-body">
     <div class="section" id="upload-section">
     <h1 class="great-vibes-regular">{{ _("Nahratie fotografií!") }}</h1>
     <form action="/upload" method="POST" enctype="multipart/form-data">
