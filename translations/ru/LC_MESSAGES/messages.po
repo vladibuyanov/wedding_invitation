@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-06 12:32+0200\n"
+"POT-Creation-Date: 2025-04-09 13:29+0200\n"
 "PO-Revision-Date: 2025-03-29 22:59+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -49,142 +49,132 @@ msgstr ""
 
 #: templates/index.html:27
 msgid ""
-"Radi by sme vás pozvali, aby ste s nami prežili\n"
-"                neopakovateľný deň plný lásky radosti a krásnych "
-"okamihov,\n"
-"                ktoré pre nás znamenajú viac, než slová dokážu vyjadriť."
+"Rozhodli sme sa kráčať spolu, nie z priateľstva ale z lásky, niena chvíľu"
+" ale NAVŽDY"
 msgstr ""
 
-#: templates/index.html:33
+#: templates/index.html:31
 msgid "Potvrdiť účasť"
 msgstr ""
 
-#: templates/index.html:39
+#: templates/index.html:37
 msgid "Podrobnosti"
 msgstr ""
 
-#: templates/index.html:41
+#: templates/index.html:39
 msgid ""
 "K svadobnému stolu si prineste dobrú náladu,\n"
 "            a ak nás chcete potešiť, namiesto veľkých darov postačí\n"
 "            malá pozornosť v obálke."
 msgstr ""
 
-#: templates/index.html:47 templates/index.html:81
+#: templates/index.html:45 templates/index.html:72
 msgid "Obrad"
 msgstr ""
 
-#: templates/index.html:48
+#: templates/index.html:46
 msgid "Svadobný obrad sa bude konať v Reformovanom kostole, Malé Ludince."
 msgstr ""
 
-#: templates/index.html:51
+#: templates/index.html:49
 msgid "Miesto konania"
 msgstr ""
 
-#: templates/index.html:53
+#: templates/index.html:51
 msgid ""
 "Naša svadba sa bude konať v 'PAVLUS Pub & Restaurant'\n"
 "            na adrese 'SNP' 444/197, 935 41 Tekovské Lužany'"
 msgstr ""
 
-#: templates/index.html:69
-msgid "Dress code"
-msgstr ""
-
-#: templates/index.html:71
-msgid "Budeme veľmi vďační, ak vo svojich outfitoch dodržíte dress code"
-msgstr ""
-
-#: templates/index.html:76
+#: templates/index.html:67
 msgid "Program"
 msgstr ""
 
-#: templates/index.html:88
+#: templates/index.html:79
 msgid "Presun na hostinu"
 msgstr ""
 
-#: templates/index.html:95
+#: templates/index.html:86
 msgid "Večera"
 msgstr ""
 
-#: templates/index.html:102
+#: templates/index.html:93
 msgid "Torta"
 msgstr ""
 
-#: templates/index.html:109
+#: templates/index.html:100
 msgid "Čepčenie"
 msgstr ""
 
-#: templates/index.html:116
+#: templates/index.html:107
 msgid "Mladuchin tanec"
 msgstr ""
 
-#: templates/index.html:123
+#: templates/index.html:114
 msgid "Do svadby zostáva!"
 msgstr ""
 
-#: templates/index.html:127
+#: templates/index.html:118
 msgid "dní"
 msgstr ""
 
-#: templates/index.html:131
+#: templates/index.html:122
 msgid "hodin"
 msgstr ""
 
-#: templates/index.html:135
+#: templates/index.html:126
 msgid "minút"
 msgstr ""
 
-#: templates/index.html:139
+#: templates/index.html:130
 msgid "S radosťou vás pozývame osláviť náš výnimočný deň!"
 msgstr ""
 
-#: templates/index.html:150
+#: templates/index.html:141
 msgid "Potvrdenie"
 msgstr ""
 
-#: templates/index.html:152
+#: templates/index.html:143
 msgid "Meno"
 msgstr ""
 
-#: templates/index.html:153
+#: templates/index.html:144
 msgid "Počet hostí"
 msgstr ""
 
-#: templates/index.html:157
+#: templates/index.html:148
 msgid "Aký alkohol uprednostňujete?"
 msgstr ""
 
-#: templates/index.html:160
+#: templates/index.html:151
 msgid "Víno"
 msgstr ""
 
-#: templates/index.html:164
+#: templates/index.html:155
 msgid "Pivo"
 msgstr ""
 
-#: templates/index.html:168
+#: templates/index.html:159
 msgid "Domáca pálenka"
 msgstr ""
 
-#: templates/index.html:172
+#: templates/index.html:163
 msgid "Vodka"
 msgstr ""
 
-#: templates/index.html:176
+#: templates/index.html:167
 msgid "Gin"
 msgstr ""
 
-#: templates/index.html:180
+#: templates/index.html:171
 msgid "Rum"
 msgstr ""
 
-#: templates/index.html:184
+#: templates/index.html:175
 msgid "Jagermeister"
 msgstr ""
 
-#: templates/index.html:190 templates/upload.html:24
+#: templates/index.html:181 templates/upload.html:24
 msgid "Odoslať"
 msgstr ""
 
@@ -225,5 +215,19 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Oslava"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Radi by sme vás pozvali, aby ste s nami prežili\n"
+#~ "                neopakovateľný deň plný lásky"
+#~ " radosti a krásnych okamihov,\n"
+#~ "                ktoré pre nás znamenajú "
+#~ "viac, než slová dokážu vyjadriť."
+#~ msgstr ""
+
+#~ msgid "Dress code"
+#~ msgstr ""
+
+#~ msgid "Budeme veľmi vďační, ak vo svojich outfitoch dodržíte dress code"
 #~ msgstr ""
 
