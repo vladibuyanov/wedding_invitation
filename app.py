@@ -50,10 +50,12 @@ def submit_form():
 @app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     drive_service = functions.get_drive_service()
-    message_sk = "Súbory boli úspešne nahrané!"
-    # message_ru = "Файлы успешно загружены!"
+    message_sk = ''
 
     if request.method == 'POST':
+        message_sk = "Súbory boli úspešne nahrané!"
+        # message_ru = "Файлы успешно загружены!"
+
         files = request.files.getlist('photos')
         pwd = request.form.get("password")
 
