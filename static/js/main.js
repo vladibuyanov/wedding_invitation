@@ -14,7 +14,7 @@ function updateCountdown() {
         countdownElementHours.innerText = `${Math.floor(diff.hours)}`;
         countdownElementMinutes.innerText = `${Math.floor(diff.minutes)}`;
     } else {
-        countdownElement.innerText = "Свадьба началась! 🎉";
+        /* countdownElement.innerText = "Свадьба началась! 🎉"; */
     }
 }
 
